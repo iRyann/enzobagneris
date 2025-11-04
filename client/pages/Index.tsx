@@ -29,13 +29,22 @@ export default function Index() {
             <div className="font-canopee text-[80px] md:text-[120px] lg:text-[168px] leading-none text-background text-center font-bold">
               PORTFOLIO
             </div>
-            <div className="hidden lg:block absolute top-[118px] left-0 w-full font-canopee text-[168px] leading-none text-primary-green text-center font-bold" style={{ WebkitTextStroke: '3px #84592B' }}>
+            <div
+              className="hidden lg:block absolute top-[118px] left-0 w-full font-canopee text-[168px] leading-none text-primary-green text-center font-bold"
+              style={{ WebkitTextStroke: "3px #84592B" }}
+            >
               PORTFOLIO
             </div>
-            <div className="hidden lg:block absolute top-[235px] left-0 w-full font-canopee text-[168px] leading-none text-primary-green text-center font-bold" style={{ WebkitTextStroke: '3px #84592B' }}>
+            <div
+              className="hidden lg:block absolute top-[235px] left-0 w-full font-canopee text-[168px] leading-none text-primary-green text-center font-bold"
+              style={{ WebkitTextStroke: "3px #84592B" }}
+            >
               PORTFOLIO
             </div>
-            <div className="hidden lg:block absolute top-[353px] left-0 w-full font-canopee text-[168px] leading-none text-center font-bold" style={{ WebkitTextStroke: '3px #84592B', color: 'transparent' }}>
+            <div
+              className="hidden lg:block absolute top-[353px] left-0 w-full font-canopee text-[168px] leading-none text-center font-bold"
+              style={{ WebkitTextStroke: "3px #84592B", color: "transparent" }}
+            >
               PORTFOLIO
             </div>
           </div>
@@ -65,9 +74,11 @@ export default function Index() {
           <div className="w-full lg:w-auto lg:max-w-[745px] flex flex-col justify-center items-start gap-6 md:gap-10">
             <div className="flex flex-col justify-center items-start w-full">
               <h1 className="font-canopee text-[64px] md:text-[96px] lg:text-[128px] leading-[0.9] text-text-color font-bold">
-                Enzo<br />Bagneris
+                Enzo
+                <br />
+                Bagneris
               </h1>
-              
+
               <div className="relative mt-4 md:mt-6 w-full max-w-[596px]">
                 <div className="bg-accent-red bg-opacity-50 rounded-[10px] px-3 md:px-4 py-2 md:py-3 mb-2 inline-block">
                   <p className="font-palatino text-[32px] md:text-[40px] lg:text-[48px] leading-tight text-text-color whitespace-nowrap">
@@ -83,7 +94,16 @@ export default function Index() {
             </div>
 
             <p className="text-black font-palatino text-sm md:text-base leading-normal w-full">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut nulla eu sapien bibendum ornare id vehicula odio. Vivamus quis mauris dui. Vestibulum non viverra eros, at lacinia nibh. Praesent sit amet nisi libero. Praesent imperdiet, risus dapibus facilisis posuere, lorem nunc faucibus libero, mollis pharetra lorem dolor eu sem. Vivamus malesuada nisi mauris, eget venenatis nunc pulvinar quis. Ut ullamcorper, nibh a fringilla viverra, risus purus finibus lectus, at dictum dolor dui non leo. Nam volutpat mauris velit, at faucibus justo posuere et. Nunc a ultricies diam.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum ut nulla eu sapien bibendum ornare id vehicula odio.
+              Vivamus quis mauris dui. Vestibulum non viverra eros, at lacinia
+              nibh. Praesent sit amet nisi libero. Praesent imperdiet, risus
+              dapibus facilisis posuere, lorem nunc faucibus libero, mollis
+              pharetra lorem dolor eu sem. Vivamus malesuada nisi mauris, eget
+              venenatis nunc pulvinar quis. Ut ullamcorper, nibh a fringilla
+              viverra, risus purus finibus lectus, at dictum dolor dui non leo.
+              Nam volutpat mauris velit, at faucibus justo posuere et. Nunc a
+              ultricies diam.
             </p>
           </div>
 
@@ -100,7 +120,7 @@ export default function Index() {
           <h2 className="text-center font-roboto text-base md:text-lg font-bold leading-[150%] mb-8 md:mb-12">
             Ils ont voulut me faire confiance, ils n'aurait pas dû
           </h2>
-          
+
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-[100px]">
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/81fd29d13c60e6b6e87d62e9f1f37c84aea7f488?width=500"
@@ -127,10 +147,16 @@ export default function Index() {
             Activités pro'
           </h2>
           <div className="relative mt-[-30px] md:mt-[-40px] lg:mt-[-70px]">
-            <div className="font-canopee text-[64px] md:text-[96px] lg:text-[128px] leading-none font-bold" style={{ WebkitTextStroke: '3px #231C0C', color: 'transparent' }}>
+            <div
+              className="font-canopee text-[64px] md:text-[96px] lg:text-[128px] leading-none font-bold"
+              style={{ WebkitTextStroke: "3px #231C0C", color: "transparent" }}
+            >
               PRO'
             </div>
-            <div className="absolute top-8 md:top-12 lg:top-16 left-0 font-canopee text-[64px] md:text-[96px] lg:text-[128px] leading-none font-bold" style={{ WebkitTextStroke: '3px #231C0C', color: 'transparent' }}>
+            <div
+              className="absolute top-8 md:top-12 lg:top-16 left-0 font-canopee text-[64px] md:text-[96px] lg:text-[128px] leading-none font-bold"
+              style={{ WebkitTextStroke: "3px #231C0C", color: "transparent" }}
+            >
               PRO'
             </div>
           </div>
@@ -144,17 +170,22 @@ export default function Index() {
             alt="Nature protection"
             className="w-full lg:w-[531px] h-auto rounded-[80px] md:rounded-[137px] object-cover"
           />
-          
+
           <div className="w-full lg:w-[534px] flex flex-col items-start gap-6">
             <h2 className="font-palatino text-[32px] md:text-[40px] lg:text-[48px] font-bold leading-tight text-text-color">
-              Gestion et protection<br />de la nature
+              Gestion et protection
+              <br />
+              de la nature
             </h2>
-            
+
             <p className="text-black font-palatino text-sm md:text-base leading-normal">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut nulla eu sapien bibendum ornare id vehicula odio. Vivamus quis mauris dui. Vestibulum non viverra eros, at lacinia nibh. Praesent sit amet nisi libero.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum ut nulla eu sapien bibendum ornare id vehicula odio.
+              Vivamus quis mauris dui. Vestibulum non viverra eros, at lacinia
+              nibh. Praesent sit amet nisi libero.
             </p>
-            
-            <Link 
+
+            <Link
               to="/gmnf"
               className="flex items-center justify-center px-10 py-3 rounded-[20px] bg-primary-green text-background font-palatino text-base hover:opacity-90 transition-opacity"
             >
@@ -171,19 +202,22 @@ export default function Index() {
               <h2 className="font-palatino text-[32px] md:text-[40px] lg:text-[48px] font-bold leading-tight text-green-light">
                 Animation nature
               </h2>
-              
+
               <p className="text-background font-palatino text-sm md:text-base leading-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut nulla eu sapien bibendum ornare id vehicula odio. Vivamus quis mauris dui. Vestibulum non viverra eros, at lacinia nibh. Praesent sit amet nisi libero.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Vestibulum ut nulla eu sapien bibendum ornare id vehicula odio.
+                Vivamus quis mauris dui. Vestibulum non viverra eros, at lacinia
+                nibh. Praesent sit amet nisi libero.
               </p>
-              
-              <Link 
+
+              <Link
                 to="/animation"
                 className="flex items-center justify-center px-10 py-3 rounded-[20px] bg-beige-light border-[1.5px] border-text-color text-text-color font-palatino text-base hover:opacity-90 transition-opacity"
               >
                 Bouton
               </Link>
             </div>
-            
+
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/3e7fc6fcdd029bafaaf6d6375466633fd4bd8048?width=1060"
               alt="Nature animation"
@@ -200,17 +234,20 @@ export default function Index() {
             alt="Randonnée"
             className="w-full lg:w-[561px] h-auto object-contain order-2 lg:order-1"
           />
-          
+
           <div className="w-full lg:w-[534px] flex flex-col items-start gap-6 order-1 lg:order-2">
             <h2 className="font-palatino text-[32px] md:text-[40px] lg:text-[48px] font-bold leading-tight text-text-color">
               Randonnée
             </h2>
-            
+
             <p className="text-black font-palatino text-sm md:text-base leading-normal">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut nulla eu sapien bibendum ornare id vehicula odio. Vivamus quis mauris dui. Vestibulum non viverra eros, at lacinia nibh. Praesent sit amet nisi libero.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum ut nulla eu sapien bibendum ornare id vehicula odio.
+              Vivamus quis mauris dui. Vestibulum non viverra eros, at lacinia
+              nibh. Praesent sit amet nisi libero.
             </p>
-            
-            <Link 
+
+            <Link
               to="/randonnee"
               className="flex items-center justify-center px-10 py-3 rounded-[20px] bg-text-color text-background font-palatino text-base hover:opacity-90 transition-opacity"
             >

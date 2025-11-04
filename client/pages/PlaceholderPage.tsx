@@ -10,7 +10,8 @@ export default function PlaceholderPage({ title }: PlaceholderPageProps) {
           {title}
         </h1>
         <p className="font-palatino text-xl text-text-color mb-8">
-          Cette page est en cours de construction. Continuez à me donner des instructions pour remplir le contenu de cette page.
+          Cette page est en cours de construction. Continuez à me donner des
+          instructions pour remplir le contenu de cette page.
         </p>
         <div className="w-32 h-1 bg-primary-green mx-auto"></div>
       </div>

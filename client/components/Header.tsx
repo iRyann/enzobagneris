@@ -14,13 +14,21 @@ export default function Header() {
             className="w-12 h-12 md:w-16 md:h-16 object-contain"
           />
         </Link>
-        
-        <button 
+
+        <button
           className="lg:hidden text-background"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
-          <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <svg
+            width="24"
+            height="24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
             {mobileMenuOpen ? (
               <>
                 <line x1="18" y1="6" x2="6" y2="18"></line>
@@ -35,38 +43,40 @@ export default function Header() {
             )}
           </svg>
         </button>
-        
-        <nav className={`${mobileMenuOpen ? 'flex' : 'hidden'} lg:flex flex-col lg:flex-row absolute lg:relative top-20 lg:top-0 left-0 lg:left-auto w-full lg:w-auto bg-primary-green lg:bg-transparent p-6 lg:p-0 justify-center items-center gap-6 lg:gap-8 xl:gap-10`}>
-          <Link 
-            to="/" 
+
+        <nav
+          className={`${mobileMenuOpen ? "flex" : "hidden"} lg:flex flex-col lg:flex-row absolute lg:relative top-20 lg:top-0 left-0 lg:left-auto w-full lg:w-auto bg-primary-green lg:bg-transparent p-6 lg:p-0 justify-center items-center gap-6 lg:gap-8 xl:gap-10`}
+        >
+          <Link
+            to="/"
             className="text-background font-palatino text-xl lg:text-2xl font-bold hover:opacity-80 transition-opacity"
             onClick={() => setMobileMenuOpen(false)}
           >
             Acceuil
           </Link>
-          <Link 
-            to="/a-propos" 
+          <Link
+            to="/a-propos"
             className="text-background font-palatino text-xl lg:text-2xl font-bold hover:opacity-80 transition-opacity"
             onClick={() => setMobileMenuOpen(false)}
           >
             A propos
           </Link>
-          <Link 
-            to="/animation" 
+          <Link
+            to="/animation"
             className="text-background font-palatino text-xl lg:text-2xl font-bold hover:opacity-80 transition-opacity"
             onClick={() => setMobileMenuOpen(false)}
           >
             Animation
           </Link>
-          <Link 
-            to="/randonnee" 
+          <Link
+            to="/randonnee"
             className="text-background font-palatino text-xl lg:text-2xl font-bold hover:opacity-80 transition-opacity"
             onClick={() => setMobileMenuOpen(false)}
           >
             Randonnée
           </Link>
-          <Link 
-            to="/gmnf" 
+          <Link
+            to="/gmnf"
             className="text-background font-palatino text-xl lg:text-2xl font-bold hover:opacity-80 transition-opacity"
             onClick={() => setMobileMenuOpen(false)}
           >
