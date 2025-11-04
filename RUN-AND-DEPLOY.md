@@ -1,7 +1,7 @@
 # Exécuter en local & déployer sur Vercel
 
 ## Prérequis
-- Node.js 22 (`nvm use` utilise le `.nvmrc`)
+- Node.js 18 (`nvm use` utilise le `.nvmrc`)
 - pnpm installé globalement: `npm i -g pnpm`
 
 ## Installation
@@ -58,7 +58,7 @@ pnpm start
 
 * Vercel exécute: `pnpm install --frozen-lockfile=false` puis `pnpm build`
 * Sert la **SPA** depuis `dist/spa`
-* Les endpoints `/api/*` sont des **fonctions serverless** (runtime `@vercel/node@3` / Node.js 22 côté Vercel au moment de l'écriture).
+* Les endpoints `/api/*` sont des **fonctions serverless** (runtime `@vercel/node@3` / Node.js 18 côté Vercel au moment de l'écriture).
 
 ## 4) Domaine
 
