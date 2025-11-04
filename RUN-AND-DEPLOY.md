@@ -56,7 +56,7 @@ pnpm start
 
 ## 3) Build & routes
 
-* Vercel exécute: `pnpm install && pnpm build`
+* Vercel exécute: `pnpm install --frozen-lockfile=false` puis `pnpm build`
 * Sert la **SPA** depuis `dist/spa`
 * Les endpoints `/api/*` sont des **fonctions serverless** (runtime `@vercel/node@3` / Node.js 22 côté Vercel au moment de l'écriture).
 
