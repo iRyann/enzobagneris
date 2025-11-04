@@ -65,9 +65,9 @@ export default {
         },
       },
       fontFamily: {
-        canopee: ['Canopee', 'serif'],
-        palatino: ['Palatino Linotype', 'serif'],
-        roboto: ['Roboto', 'sans-serif'],
+        canopee: ['Playfair Display', 'Georgia', 'serif'],
+        palatino: ['Palatino Linotype', 'Palatino', 'Georgia', 'serif'],
+        roboto: ['Roboto', 'Arial', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
