@@ -19,6 +19,12 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        'text-color': "hsl(var(--text-color))",
+        'primary-green': "hsl(var(--primary-green))",
+        'accent-red': "hsl(var(--accent-red))",
+        'accent-brown': "hsl(var(--accent-brown))",
+        'beige-light': "hsl(var(--beige-light))",
+        'green-light': "hsl(var(--green-light))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -57,6 +63,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        canopee: ['Canopee', 'serif'],
+        palatino: ['Palatino Linotype', 'serif'],
+        roboto: ['Roboto', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
