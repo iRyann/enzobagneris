@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "functions": {
-    "api/*.ts": { "runtime": "nodejs22.x" }
+    "api/*.ts": { "runtime": "nodejs20.x" }
   },
   "buildCommand": "pnpm install --frozen-lockfile=false && pnpm build",
   "outputDirectory": "dist/spa",
