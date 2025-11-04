@@ -58,7 +58,7 @@ pnpm start
 
 * Vercel exécute: `pnpm install && pnpm build`
 * Sert la **SPA** depuis `dist/spa`
-* Les endpoints `/api/*` sont des **fonctions serverless** (runtime Node.js 20 côté Vercel au moment de l'écriture).
+* Les endpoints `/api/*` sont des **fonctions serverless** (runtime `@vercel/node@3` / Node.js 22 côté Vercel au moment de l'écriture).
 
 ## 4) Domaine
 
