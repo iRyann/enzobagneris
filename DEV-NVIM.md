@@ -22,5 +22,5 @@ require("lspconfig").tsserver.setup({})
 ## Commandes projet
 - `pnpm dev`
 - `pnpm build`
-- `pnpm start`
+- `pnpm preview`
 - `pnpm validate`
