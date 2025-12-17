@@ -1,13 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio d'Enzo Bagneris - Animateur nature & Initiateur montagnisme" />
-    <title>Enzo Bagneris - Portfolio</title>
-  </head>
-  <body>
+    <title>Enzo Bagneris | Animateur Nature</title>
+    <meta name="description" content="Portfolio d'Enzo Bagneris, Animateur nature & Initiateur montagnisme. Gestion et protection de la nature." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display+SC:wght@400;700;900&family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              nature: {
+                dark: '#284B3A', // Deep forest green
+                light: '#F3EFE7', // Cream/Beige background
+                accent: '#D85C36', // Rust/Mushroom orange
+                soft: '#F2AFA0', // Soft pinkish accent
+                text: '#1F1F1F', // Dark charcoal
+                muted: '#5A5A5A', // Gray text
+              }
+            },
+            fontFamily: {
+              serif: ['"Lora"', 'serif'], // Palatino alternative
+              display: ['"Playfair Display SC"', 'serif'], // Canopee alternative (condensed/caps feel)
+              heading: ['"Playfair Display"', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for a polished look */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F3EFE7;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #284B3A;
+        border-radius: 5px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #D85C36;
+      }
+      
+      .text-outline {
+         -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+         color: transparent;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-nature-light text-nature-text antialiased">
     <div id="root"></div>
-    <script type="module" src="/src/App.tsx"></script>
-  </body>
+  <script type="module" src="/index.tsx"></script>
+</body>
 </html>
