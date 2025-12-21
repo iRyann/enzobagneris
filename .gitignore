@@ -1,3 +1,8 @@
+# Personal
+.env
+.env.local
+README.md
+
 # Logs
 logs
 *.log
