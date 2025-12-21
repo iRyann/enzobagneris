@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Leaf } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
 
 const navItems = [
-  { label: 'Accueil', href: '#home' },
-  { label: 'À propos', href: '#about' },
-  { label: 'Activités', href: '#services' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Accueil', to: '/', hash: '#home' },
+  { label: 'À propos', to: '/about', hash: '' },
+  { label: 'Activités', to: '/services', hash: '' }, // Point to new Services page
+  { label: 'Portfolio', to: '/portfolio', hash: '' },
+  { label: 'Blog', to: '/blog', hash: '' },
+  { label: 'Contact', to: '/', hash: '#contact' },
 ];
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,47 +25,44 @@ const Navbar: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-    e.preventDefault();
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setIsMobileMenuOpen(false);
-    }
-  };
+  const closeMenu = () => setIsMobileMenuOpen(false);
 
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-nature-dark/95 backdrop-blur-sm shadow-lg py-3' : 'bg-transparent py-6'
+        isScrolled || location.pathname !== '/' 
+          ? 'bg-nature-dark/95 backdrop-blur-sm shadow-lg py-3' 
+          : 'bg-transparent py-6'
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
-        <a 
-          href="#home" 
-          onClick={(e) => scrollToSection(e, '#home')}
+        <Link 
+          to={{ pathname: '/', hash: '#home' }}
+          onClick={closeMenu}
           className={`flex items-center gap-2 font-display text-2xl tracking-widest font-bold ${
-            isScrolled ? 'text-nature-light' : 'text-nature-dark'
+            isScrolled || location.pathname !== '/' ? 'text-nature-light' : 'text-nature-dark'
           }`}
         >
-          <Leaf className={`w-6 h-6 ${isScrolled ? 'text-nature-accent' : 'text-nature-dark'}`} />
-          <span>ENZO BAGNERIS</span>
-        </a>
+          <Leaf className={`w-6 h-6 ${isScrolled || location.pathname !== '/' ? 'text-nature-accent' : 'text-nature-dark'}`} />
+          <span className="hidden sm:inline">ENZO BAGNERIS</span>
+          <span className="sm:hidden">EB</span>
+        </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8">
           {navItems.map((item) => (
-            <a
+            <Link
               key={item.label}
-              href={item.href}
-              onClick={(e) => scrollToSection(e, item.href)}
-              className={`font-serif text-sm tracking-wide transition-colors hover:text-nature-accent ${
-                isScrolled ? 'text-nature-light' : 'text-nature-text'
+              to={{ pathname: item.to, hash: item.hash }}
+              className={`font-serif text-sm tracking-widest transition-colors hover:text-nature-accent ${
+                location.pathname === item.to && item.hash === '' 
+                ? 'text-nature-accent font-bold' 
+                : isScrolled || location.pathname !== '/' ? 'text-nature-light' : 'text-nature-text'
               }`}
             >
               {item.label.toUpperCase()}
-            </a>
+            </Link>
           ))}
         </div>
 
@@ -71,26 +72,30 @@ const Navbar: React.FC = () => {
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? (
-            <X className={`w-8 h-8 ${isScrolled ? 'text-nature-light' : 'text-nature-dark'}`} />
+            <X className={`w-8 h-8 ${isScrolled || location.pathname !== '/' ? 'text-nature-light' : 'text-nature-dark'}`} />
           ) : (
-            <Menu className={`w-8 h-8 ${isScrolled ? 'text-nature-light' : 'text-nature-dark'}`} />
+            <Menu className={`w-8 h-8 ${isScrolled || location.pathname !== '/' ? 'text-nature-light' : 'text-nature-dark'}`} />
           )}
         </button>
       </div>
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-nature-light shadow-xl border-t border-nature-dark/10">
-          <div className="flex flex-col py-6 px-6 space-y-4">
+        <div className="md:hidden absolute top-0 left-0 w-full h-screen bg-nature-light z-50 animate-in slide-in-from-top duration-300">
+           <div className="p-6 flex justify-between items-center border-b border-nature-dark/10">
+              <span className="font-display font-bold text-xl text-nature-dark">MENU</span>
+              <button onClick={closeMenu}><X className="w-8 h-8 text-nature-dark" /></button>
+           </div>
+          <div className="flex flex-col py-12 px-8 space-y-8">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.label}
-                href={item.href}
-                onClick={(e) => scrollToSection(e, item.href)}
-                className="text-nature-dark font-display text-lg tracking-widest hover:text-nature-accent"
+                to={{ pathname: item.to, hash: item.hash }}
+                onClick={closeMenu}
+                className="text-nature-dark font-display text-3xl tracking-widest border-b border-nature-dark/5 pb-4 hover:text-nature-accent"
               >
                 {item.label}
-              </a>
+              </Link>
             ))}
           </div>
         </div>

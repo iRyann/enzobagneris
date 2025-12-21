@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero: React.FC = () => {
   return (
@@ -44,12 +45,12 @@ const Hero: React.FC = () => {
             </div>
 
             <div className="pt-4">
-                <a 
-                   href="#contact"
+                <Link 
+                   to={{ pathname: '/', hash: '#contact' }}
                    className="inline-block px-10 py-4 bg-nature-dark text-nature-light font-display text-lg tracking-widest hover:bg-nature-accent hover:-translate-y-1 transition-all duration-300 shadow-xl"
                 >
                     ME CONTACTER
-                </a>
+                </Link>
             </div>
         </div>
 
@@ -79,9 +80,12 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      <a href="#about" className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce text-nature-dark/50 hover:text-nature-dark transition-colors z-20">
+      <Link 
+        to={{ pathname: '/', hash: '#about' }}
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce text-nature-dark/50 hover:text-nature-dark transition-colors z-20"
+      >
         <ArrowDown size={32} />
-      </a>
+      </Link>
     </section>
   );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ServiceItem } from '../types';
+import { Link } from 'react-router-dom';
 
 const services: ServiceItem[] = [
   {
@@ -7,7 +8,7 @@ const services: ServiceItem[] = [
     title: 'Gestion et protection de la nature',
     description: "Expertise technique pour l'inventaire faune/flore, la création de plans de gestion et la restauration de milieux dégradés. J'accompagne les collectivités et les privés dans une démarche durable.",
     image: 'https://picsum.photos/600/400?forest',
-    ctaText: 'Mes services GMNF',
+    ctaText: 'Détail pour les pros',
     reverseLayout: false,
   },
   {
@@ -15,7 +16,7 @@ const services: ServiceItem[] = [
     title: 'Animation nature',
     description: "Ateliers pédagogiques pour écoles, centres de loisirs ou grand public. Découverte des insectes, lecture de paysage, traces et indices... Apprendre en s'amusant au cœur du terrain.",
     image: 'https://picsum.photos/600/400?kids',
-    ctaText: 'Voir le catalogue',
+    ctaText: 'Offre Scolaire',
     reverseLayout: true,
   },
   {
@@ -23,7 +24,7 @@ const services: ServiceItem[] = [
     title: 'Randonnée & Montagnisme',
     description: "Sorties guidées en montagne. De la balade contemplative à l'initiation à l'orientation et au bivouac. Sécurité, convivialité et immersion totale.",
     image: 'https://picsum.photos/600/400?mountain',
-    ctaText: 'Réserver une sortie',
+    ctaText: 'Sorties Grand Public',
     reverseLayout: false,
   },
 ];
@@ -39,6 +40,9 @@ const Services: React.FC = () => {
             ACTIVITÉS PRO
             <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-2 bg-nature-accent rounded-full"></span>
           </h2>
+          <p className="mt-8 text-xl text-nature-muted font-serif">
+              Un aperçu de mes domaines d'intervention.
+          </p>
         </div>
 
         <div className="space-y-32">
@@ -68,13 +72,16 @@ const Services: React.FC = () => {
                 <p className="text-lg text-nature-muted font-serif leading-relaxed">
                   {service.description}
                 </p>
-                <button className={`
-                  px-8 py-3 rounded-full border-2 border-nature-dark font-display tracking-widest text-sm
-                  transition-all duration-300 hover:bg-nature-dark hover:text-nature-light
-                  ${service.id === 'gestion' ? 'bg-nature-dark text-nature-light' : 'text-nature-dark'}
-                `}>
+                <Link 
+                  to="/services"
+                  className={`
+                    inline-block px-8 py-3 rounded-full border-2 border-nature-dark font-display tracking-widest text-sm
+                    transition-all duration-300 hover:bg-nature-dark hover:text-nature-light
+                    ${service.id === 'gestion' ? 'bg-nature-dark text-nature-light' : 'text-nature-dark'}
+                  `}
+                >
                   {service.ctaText.toUpperCase()}
-                </button>
+                </Link>
               </div>
             </div>
           ))}
