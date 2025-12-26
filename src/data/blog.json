@@ -1,0 +1,82 @@
+[
+  {
+    "id": "classe-decouverte",
+    "slug": "classe-decouverte",
+    "title": "Classe découverte en montagne : L'éveil des sens",
+    "subtitle": "Retour sur une semaine d'immersion avec les 3-6 ans.",
+    "excerpt": "Retour sur une semaine d'immersion avec les 3-6 ans en montagne.",
+    "content": "<p>L'organisation d'une classe découverte pour des maternelles (3-6 ans) représente un défi unique : comment rendre la montagne accessible, sécurisante et passionnante pour des tout-petits ?</p>\n\n<h3>1. L'approche sensorielle avant tout</h3>\n<p>À cet âge, l'intellectualisation est secondaire. Nous avons axé le séjour sur le toucher, l'écoute et la vue. La découverte des rapaces ne s'est pas faite par des fiches techniques, mais par l'observation aux jumelles (adaptées) et la manipulation de plumes.</p>\n\n<h3>2. Le jeu comme vecteur d'apprentissage</h3>\n<p>Pour expliquer la chaîne alimentaire, nous avons utilisé des puzzles géants fabriqués sur mesure. Chaque enfant repart avec une pièce du puzzle, symbolisant son appartenance à cet écosystème.</p>\n\n<h3>Bilan</h3>\n<p>Les enfants ont montré une capacité d'attention surprenante dès lors qu'ils étaient acteurs de leur découverte. Une expérience à renouveler au printemps prochain !</p>",
+    "category": "Pédagogie",
+    "tags": [
+      "Scolaire",
+      "Montagne",
+      "Faune"
+    ],
+    "publishedAt": "12 Octobre 2023",
+    "coverImage": {
+      "url": "/assets/images/placeholders/blog-placeholder.svg",
+      "alt": "Enfants en classe découverte observant la nature"
+    },
+    "featured": true
+  },
+  {
+    "id": "phyt-abeilles",
+    "slug": "phyt-abeilles",
+    "title": "Atelier Phyt'Abeilles : La rigueur scientifique à l'école",
+    "subtitle": "Initier les élèves aux protocoles de sciences participatives.",
+    "excerpt": "Initier les élèves aux protocoles de sciences participatives.",
+    "content": "<p>Comment transformer un cours de biologie en véritable enquête de terrain ? L'atelier Phyt'Abeilles a pour but de recenser les interactions plantes-pollinisateurs.</p>\n\n<h3>Le Protocole</h3>\n<p>Les étudiants ont dû respecter un protocole strict : observation sur 20 minutes, transect défini, capture photographique. Cette rigueur est essentielle pour que les données soient exploitables par les chercheurs.</p>\n\n<h3>Outils d'identification</h3>\n<p>Nous avons utilisé des clés de détermination simplifiées mais précises, permettant de distinguer les principales familles d'hyménoptères sauvages. La loupe binoculaire a révélé des détails invisibles à l'œil nu, suscitant l'émerveillement.</p>",
+    "category": "Science",
+    "tags": [
+      "Insectes",
+      "Protocole",
+      "BTS"
+    ],
+    "publishedAt": "28 Septembre 2023",
+    "coverImage": {
+      "url": "/assets/images/placeholders/blog-placeholder.svg",
+      "alt": "Atelier Phyt'Abeilles"
+    },
+    "featured": false
+  },
+  {
+    "id": "hotel-insectes",
+    "slug": "hotel-insectes",
+    "title": "Rénovation d'un Hôtel à insectes",
+    "subtitle": "Chantier participatif et sensibilisation.",
+    "excerpt": "Chantier participatif et sensibilisation.",
+    "content": "<p>Un hôtel à insectes à l'abandon n'est pas seulement inutile, il peut devenir un piège écologique (parasites, humidité). Avec une classe de 5ème, nous avons entrepris sa rénovation complète.</p>\n\n<h3>Choix des matériaux</h3>\n<p>Nous avons remplacé les briques creuses (souvent inutilisées) par des tiges de sureau et de bambou, beaucoup plus prisées par les osmies. La paille a été changée pour offrir un abri sec aux chrysopes.</p>\n\n<h3>Pédagogie du \"faire\"</h3>\n<p>Au-delà de l'aspect manuel, ce chantier a permis d'aborder le cycle de vie des auxiliaires du jardin et l'importance de ne pas utiliser de pesticides à proximité.</p>",
+    "category": "Chantier Nature",
+    "tags": [
+      "Biodiversité",
+      "Bricolage",
+      "Collège"
+    ],
+    "publishedAt": "15 Juin 2023",
+    "coverImage": {
+      "url": "/assets/images/placeholders/blog-placeholder.svg",
+      "alt": "Rénovation d'un hôtel à insectes"
+    },
+    "featured": false
+  },
+  {
+    "id": "randonnee-decouverte",
+    "slug": "randonnee-decouverte",
+    "title": "Randonnée : Lire le paysage pyrénéen",
+    "subtitle": "Sortie géologie et flore avec les lycéens.",
+    "excerpt": "Sortie géologie et flore avec les lycéens.",
+    "content": "<p>La montagne est un livre ouvert pour qui sait la lire. Lors de cette sortie avec des lycéens, nous avons appris à décrypter l'histoire géologique des Pyrénées.</p>\n\n<h3>Lecture de paysage</h3>\n<p>Identifier les étages de végétation, comprendre l'érosion glaciaire, repérer les zones de pastoralisme... L'objectif était de donner aux élèves les clés pour comprendre leur environnement.</p>\n\n<h3>Sécurité et Autonomie</h3>\n<p>Une partie de la randonnée a été consacrée à l'orientation : lecture de carte IGN 1/25000 et utilisation de la boussole. Des compétences essentielles pour tout montagnard.</p>",
+    "category": "Montagne",
+    "tags": [
+      "Randonnée",
+      "Géologie",
+      "Lycée"
+    ],
+    "publishedAt": "05 Mai 2023",
+    "coverImage": {
+      "url": "/assets/images/placeholders/blog-placeholder.svg",
+      "alt": "Randonnée dans les Pyrénées"
+    },
+    "featured": false
+  }
+]

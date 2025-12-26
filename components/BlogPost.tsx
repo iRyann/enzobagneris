@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft, Calendar, Tag, Share2 } from 'lucide-react';
 import { blogPosts } from './blogData';
+import { useSanitizedHTML } from '../src/hooks/useSanitizedHTML';
 
 const BlogPost: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -20,6 +21,8 @@ const BlogPost: React.FC = () => {
         </div>
     );
   }
+
+  const sanitizedContent = useSanitizedHTML(post.content);
 
   return (
     <article className="bg-nature-light min-h-screen pt-24 pb-20 animate-in fade-in duration-500">
@@ -57,7 +60,8 @@ const BlogPost: React.FC = () => {
 
         <div 
             className="prose prose-lg prose-headings:font-display prose-headings:text-nature-dark prose-p:font-serif prose-p:text-nature-text prose-a:text-nature-accent hover:prose-a:text-nature-dark prose-img:rounded-xl"
-            dangerouslySetInnerHTML={{ __html: post.content }}
+            // Sanitization mandatory to prevent XSS with HTML content.
+            dangerouslySetInnerHTML={{ __html: sanitizedContent }}
         ></div>
 
         {/* Share / Footer of Article */}

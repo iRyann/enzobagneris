@@ -164,7 +164,7 @@ const ServicesPage: React.FC = () => {
 
                 <div className="md:w-2/3 bg-white rounded-3xl overflow-hidden shadow-xl border border-nature-dark/10">
                     <div className="h-48 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2670&auto=format&fit=crop" alt="Team building nature" className="w-full h-full object-cover" />
+                        <img src="/assets/images/placeholders/enterprise-placeholder.svg" alt="Team building nature" className="w-full h-full object-cover" />
                     </div>
                     <div className="p-8">
                          <div className="grid md:grid-cols-2 gap-8">

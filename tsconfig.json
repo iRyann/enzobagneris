@@ -11,16 +11,19 @@
     ],
     "skipLibCheck": true,
     "types": [
-      "node"
+      "node",
+      "react",
+      "react-dom"
     ],
     "moduleResolution": "bundler",
     "isolatedModules": true,
     "moduleDetection": "force",
+    "resolveJsonModule": true,
     "allowJs": true,
     "jsx": "react-jsx",
     "paths": {
       "@/*": [
-        "./*"
+        "./src/*"
       ]
     },
     "allowImportingTsExtensions": true,

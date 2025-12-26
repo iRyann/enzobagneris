@@ -3,9 +3,9 @@ import { Award, Mountain, Sprout, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const partners = [
-  { name: 'Parc National des Pyrénées', logo: 'https://picsum.photos/150/80?random=1' },
-  { name: 'Pierre & Terre', logo: 'https://picsum.photos/150/80?random=2' },
-  { name: 'Point Vert', logo: 'https://picsum.photos/150/80?random=3' },
+  { name: 'Parc National des Pyrénées', logo: '/assets/images/placeholders/partner-placeholder.svg' },
+  { name: 'Pierre & Terre', logo: '/assets/images/placeholders/partner-placeholder.svg' },
+  { name: 'Point Vert', logo: '/assets/images/placeholders/partner-placeholder.svg' },
 ];
 
 const About: React.FC = () => {
@@ -34,7 +34,7 @@ const About: React.FC = () => {
             <div className="order-2 md:order-1 relative">
                 <div className="w-full aspect-square rounded-full overflow-hidden border-8 border-nature-soft shadow-xl">
                     <img 
-                        src="https://picsum.photos/800/800?nature,forest" 
+                        src="/assets/images/placeholders/profile-placeholder.svg" 
                         alt="Enzo Bagneris en nature" 
                         className="w-full h-full object-cover"
                     />

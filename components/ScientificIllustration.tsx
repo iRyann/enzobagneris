@@ -67,7 +67,7 @@ const ScientificIllustration: React.FC = () => {
                            J'utilise une image d'illustration générique pour l'exemple.
                         */}
                         <img 
-                            src="https://images.unsplash.com/photo-1578326457399-3b34dbbf23b8?q=80&w=1200&auto=format&fit=crop" 
+                            src="/assets/images/placeholders/illustration-placeholder.svg" 
                             alt="Fiche Espèce Milan Royal - Conception Graphique Enzo Bagneris" 
                             className="w-full max-w-lg h-auto object-cover border border-nature-dark/10"
                         />

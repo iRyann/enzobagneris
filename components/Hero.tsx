@@ -67,10 +67,10 @@ const Hero: React.FC = () => {
                     muted
                     loop
                     playsInline
-                    poster="https://picsum.photos/1000/1200?mountain"
+                    poster="/assets/images/placeholders/hero-poster.svg"
                 >
                     {/* Placeholder video - Replace this src with your local video file or hosted URL */}
-                    <source src="https://videos.pexels.com/video-files/5508868/5508868-hd_1080_1920_30fps.mp4" type="video/mp4" />
+                    <source src="/assets/videos/hero-placeholder.mp4" type="video/mp4" />
                     Votre navigateur ne supporte pas la balise vidéo.
                 </video>
                 

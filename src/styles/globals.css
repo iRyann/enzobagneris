@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import './fonts.css';
+@config "../../tailwind.config.cjs";
+
+/* Custom scrollbar for a polished look */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3efe7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #284b3a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d85c36;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+  color: transparent;
+}

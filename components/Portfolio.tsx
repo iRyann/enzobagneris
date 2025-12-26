@@ -8,7 +8,7 @@ const projects = [
     title: "Classe découverte en montagne",
     subtitle: "À la découverte de la faune et de la flore",
     target: "Scolaire (3 à 6 ans)",
-    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop",
+    image: "/assets/images/placeholders/project-placeholder.svg",
     principles_env: [
       "Découverte de la montagne pyrénéenne : sensibilisation aux milieux locaux.",
       "Biodiversité : initiation aux rapaces diurnes (espèces emblématiques)."
@@ -25,7 +25,7 @@ const projects = [
     title: "Atelier Phyt'Abeilles",
     subtitle: "Déterminations, identification et protocole",
     target: "Primaire à BTS",
-    image: "https://images.unsplash.com/photo-1581093458791-9f302e6d8169?q=80&w=2670&auto=format&fit=crop",
+    image: "/assets/images/placeholders/project-placeholder.svg",
     principles_env: [
       "Biodiversité et pollinisation : importance écologique des abeilles sauvages.",
       "Science participative : implication dans un protocole scientifique reconnu."
@@ -42,7 +42,7 @@ const projects = [
     title: "Rénovation d'un Hôtel à insectes",
     subtitle: "Un foyer pour la vie des plus petits",
     target: "Collégiens / Grand Public",
-    image: "https://images.unsplash.com/photo-1526657650890-a75d50228e51?q=80&w=2607&auto=format&fit=crop",
+    image: "/assets/images/placeholders/project-placeholder.svg",
     principles_env: [
       "Préservation de la biodiversité : création d'habitats pour les auxiliaires.",
       "Approche écologique : utilisation de matériaux de récupération et locaux.",
@@ -60,7 +60,7 @@ const projects = [
     title: "Randonnée découverte",
     subtitle: "Faune et flore des montagnes pyrénéennes",
     target: "Collège (4ème/3ème) & Lycée",
-    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2670&auto=format&fit=crop",
+    image: "/assets/images/placeholders/project-placeholder.svg",
     principles_env: [
       "Immersion en montagne : découverte directe de la faune/flore.",
       "Éducation au territoire : valorisation du patrimoine naturel pyrénéen.",

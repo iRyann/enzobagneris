@@ -28,8 +28,8 @@ const CVPage: React.FC = () => {
                 <div className="absolute inset-0 bg-nature-accent/20 rounded-full blur-2xl transform translate-x-4 translate-y-4"></div>
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-nature-light shadow-lg">
                     {/* Placeholder for Enzo's photo based on CV */}
-                    <img 
-                        src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1000&auto=format&fit=crop" 
+                        <img 
+                        src="/assets/images/placeholders/profile-placeholder.svg" 
                         alt="Enzo Bagneris" 
                         className="w-full h-full object-cover"
                     />
