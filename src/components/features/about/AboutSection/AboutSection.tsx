@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, Mountain, Sprout, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { PartnersList } from '../PartnersList/PartnersList';

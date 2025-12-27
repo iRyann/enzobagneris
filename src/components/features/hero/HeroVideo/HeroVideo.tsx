@@ -1,4 +1,3 @@
-import React from 'react';
 import heroPoster from '@/assets/images/placeholders/hero-poster.svg';
 import heroVideo from '@/assets/videos/hero-placeholder.mp4';
 

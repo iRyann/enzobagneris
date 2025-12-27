@@ -1,4 +1,3 @@
-import React from 'react';
 import { Eye, FileSearch, PenTool } from 'lucide-react';
 
 /**

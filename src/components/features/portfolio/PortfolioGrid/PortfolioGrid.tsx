@@ -1,4 +1,3 @@
-import React from 'react';
 import { Section } from '@/components/ui';
 import { useProjects } from '@/hooks';
 import { ProjectCard } from '../ProjectCard/ProjectCard';

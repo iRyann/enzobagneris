@@ -1,4 +1,3 @@
-import React from 'react';
 import { X } from 'lucide-react';
 import type { NavigationItem } from '@/config/navigation.config';
 import { NavItem } from './NavItem';

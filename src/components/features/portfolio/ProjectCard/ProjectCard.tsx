@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight, GraduationCap, Leaf, Users } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import type { Project } from '@/types';
@@ -39,18 +38,20 @@ export function ProjectCard({ project }: ProjectCardProps) {
       <div className="p-8 space-y-8 flex-grow">
         <PrinciplesList
           title="Principes Environnementaux"
-          icon={<Leaf size={18} />}
+          icon={Leaf}
           items={envPrinciples}
-          accentClass="bg-nature-dark/10 text-nature-dark"
+          accentClass="bg-nature-dark/10"
+          iconClass="text-nature-dark"
           borderClass="border-nature-dark/20"
           titleClassName="text-nature-dark"
         />
 
         <PrinciplesList
           title="Approche Pédagogique"
-          icon={<GraduationCap size={18} />}
+          icon={GraduationCap}
           items={pedagoPrinciples}
-          accentClass="bg-nature-accent/10 text-nature-accent"
+          accentClass="bg-nature-accent/10"
+          iconClass="text-nature-accent"
           borderClass="border-nature-accent/20"
           titleClassName="text-nature-accent"
         />

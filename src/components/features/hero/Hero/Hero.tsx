@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { HeroVideo } from '../HeroVideo/HeroVideo';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useServices } from '@/hooks';
 import { ServiceCard } from '../ServiceCard/ServiceCard';
 

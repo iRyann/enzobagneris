@@ -1,4 +1,3 @@
-import React from 'react';
 import { AboutSection } from '@/components/features/about';
 import { ContactInfo } from '@/components/features/contact';
 import { Hero } from '@/components/features/hero';

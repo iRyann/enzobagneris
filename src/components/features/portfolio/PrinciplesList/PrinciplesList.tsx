@@ -1,14 +1,15 @@
-import React from 'react';
+import type { LucideIcon } from 'lucide-react';
 
 /**
  * Props du composant PrinciplesList.
  */
 export interface PrinciplesListProps {
   title: string;
-  icon: React.ReactNode;
+  icon: LucideIcon;
   items: string[];
-  accentClass: string;
-  borderClass: string;
+  accentClass: `bg-${string}`;
+  iconClass: `text-${string}`;
+  borderClass: `border-${string}`;
   titleClassName?: string;
 }
 
@@ -17,16 +18,19 @@ export interface PrinciplesListProps {
  */
 export function PrinciplesList({
   title,
-  icon,
+  icon: Icon,
   items,
   accentClass,
+  iconClass,
   borderClass,
   titleClassName,
 }: PrinciplesListProps) {
   return (
     <div>
       <div className="flex items-center gap-2 mb-3">
-        <div className={`p-2 rounded-full ${accentClass}`}>{icon}</div>
+        <div className={`p-2 rounded-full ${accentClass}`}>
+          <Icon size={18} className={iconClass} />
+        </div>
         <h4 className={`font-bold font-display tracking-wide uppercase text-sm ${titleClassName || ''}`}>
           {title}
         </h4>

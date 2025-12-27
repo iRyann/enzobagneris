@@ -1,4 +1,3 @@
-import React from 'react';
 import { useBlogPosts } from '@/hooks';
 import { BlogCard } from '../BlogCard/BlogCard';
 import { BlogHeader } from '../BlogHeader/BlogHeader';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight, Instagram, Linkedin, Mail, MapPin, Phone } from 'lucide-react';
 
 /**

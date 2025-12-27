@@ -1,4 +1,4 @@
-import React from 'react';
+import { Fragment } from 'react';
 import {
   Briefcase,
   Calendar,
@@ -294,13 +294,13 @@ function EducationSection() {
 
         <div className="bg-nature-light border border-nature-dark/10 p-6 rounded-2xl md:col-span-2 flex flex-wrap gap-6 items-center justify-between">
           {certifications.map((item, index) => (
-            <React.Fragment key={item.title}>
+            <Fragment key={item.title}>
               <div>
                 <h4 className="font-bold text-nature-dark">{item.title}</h4>
                 <p className="text-xs text-nature-muted">{item.description}</p>
               </div>
               {index === 0 && <div className="h-8 w-px bg-nature-dark/10 hidden md:block"></div>}
-            </React.Fragment>
+            </Fragment>
           ))}
         </div>
       </div>
