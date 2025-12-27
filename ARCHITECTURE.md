@@ -1,7 +1,5 @@
 # Architecture du Projet
 
-Ce document decrit l'organisation du code et les patterns utilises.
-
 ## Structure des dossiers
 
 - `src/components/ui` : composants reutilisables (Button, Card, etc.)

@@ -1,7 +1,5 @@
 # Enzo Bagneris Portfolio
 
-Refactorisation d'un portfolio React/TypeScript pour une architecture modulaire et prete pour Strapi.
-
 ## Stack
 
 - React 19 + TypeScript 5.8
