@@ -6,7 +6,7 @@
 
 # Interface: ButtonProps
 
-Defined in: [src/components/ui/Button/Button.tsx:7](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/ui/Button/Button.tsx#L7)
+Defined in: [src/components/ui/Button/Button.tsx:7](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/ui/Button/Button.tsx#L7)
 
 Props du composant Button.
 
@@ -3753,7 +3753,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.2.7/node\_modules/@types/react/i
 
 > `optional` **variant**: `"primary"` \| `"secondary"` \| `"outline"` \| `"ghost"`
 
-Defined in: [src/components/ui/Button/Button.tsx:13](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/ui/Button/Button.tsx#L13)
+Defined in: [src/components/ui/Button/Button.tsx:13](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/ui/Button/Button.tsx#L13)
 
 Variant visuel du bouton.
 
@@ -3769,7 +3769,7 @@ Variant visuel du bouton.
 
 > `optional` **size**: `"sm"` \| `"md"` \| `"lg"`
 
-Defined in: [src/components/ui/Button/Button.tsx:18](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/ui/Button/Button.tsx#L18)
+Defined in: [src/components/ui/Button/Button.tsx:18](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/ui/Button/Button.tsx#L18)
 
 Taille du bouton.
 
@@ -3785,7 +3785,7 @@ Taille du bouton.
 
 > `optional` **loading**: `boolean`
 
-Defined in: [src/components/ui/Button/Button.tsx:22](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/ui/Button/Button.tsx#L22)
+Defined in: [src/components/ui/Button/Button.tsx:22](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/ui/Button/Button.tsx#L22)
 
 Etat de chargement.
 
@@ -3795,6 +3795,6 @@ Etat de chargement.
 
 > `optional` **fullWidth**: `boolean`
 
-Defined in: [src/components/ui/Button/Button.tsx:26](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/ui/Button/Button.tsx#L26)
+Defined in: [src/components/ui/Button/Button.tsx:26](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/ui/Button/Button.tsx#L26)
 
 Largeur pleine.

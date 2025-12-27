@@ -6,7 +6,7 @@
 
 # Class: DataServiceError
 
-Defined in: [src/services/api/types.ts:1](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/types.ts#L1)
+Defined in: [src/services/api/types.ts:1](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/types.ts#L1)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/services/api/types.ts:1](https://github.com/iRyann/enzobagneris
 
 > **new DataServiceError**(`message`, `endpoint`, `cause?`): `DataServiceError`
 
-Defined in: [src/services/api/types.ts:5](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/types.ts#L5)
+Defined in: [src/services/api/types.ts:5](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/types.ts#L5)
 
 #### Parameters
 
@@ -70,7 +70,7 @@ not capture any frames.
 
 > **endpoint**: `string`
 
-Defined in: [src/services/api/types.ts:2](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/types.ts#L2)
+Defined in: [src/services/api/types.ts:2](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/types.ts#L2)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [src/services/api/types.ts:2](https://github.com/iRyann/enzobagneris
 
 > `optional` **cause**: `unknown`
 
-Defined in: [src/services/api/types.ts:3](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/types.ts#L3)
+Defined in: [src/services/api/types.ts:3](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/types.ts#L3)
 
 #### Overrides
 

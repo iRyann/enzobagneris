@@ -6,7 +6,7 @@
 
 # Interface: APIError
 
-Defined in: [src/types/error.types.ts:1](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L1)
+Defined in: [src/types/error.types.ts:1](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L1)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/error.types.ts:1](https://github.com/iRyann/enzobagneris/
 
 > **message**: `string`
 
-Defined in: [src/types/error.types.ts:2](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L2)
+Defined in: [src/types/error.types.ts:2](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L2)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/error.types.ts:2](https://github.com/iRyann/enzobagneris/
 
 > **code**: `string`
 
-Defined in: [src/types/error.types.ts:3](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L3)
+Defined in: [src/types/error.types.ts:3](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L3)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [src/types/error.types.ts:3](https://github.com/iRyann/enzobagneris/
 
 > `optional` **statusCode**: `number`
 
-Defined in: [src/types/error.types.ts:4](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L4)
+Defined in: [src/types/error.types.ts:4](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L4)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [src/types/error.types.ts:4](https://github.com/iRyann/enzobagneris/
 
 > `optional` **details**: `Record`\<`string`, `unknown`\>
 
-Defined in: [src/types/error.types.ts:5](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L5)
+Defined in: [src/types/error.types.ts:5](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L5)
 
 ***
 
@@ -46,4 +46,4 @@ Defined in: [src/types/error.types.ts:5](https://github.com/iRyann/enzobagneris/
 
 > `optional` **timestamp**: `string`
 
-Defined in: [src/types/error.types.ts:6](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L6)
+Defined in: [src/types/error.types.ts:6](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L6)

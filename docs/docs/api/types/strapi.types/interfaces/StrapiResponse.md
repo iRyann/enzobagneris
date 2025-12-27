@@ -6,7 +6,7 @@
 
 # Interface: StrapiResponse\<T\>
 
-Defined in: [src/types/strapi.types.ts:12](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/strapi.types.ts#L12)
+Defined in: [src/types/strapi.types.ts:12](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/strapi.types.ts#L12)
 
 Reponse generique Strapi.
 
@@ -22,7 +22,7 @@ Reponse generique Strapi.
 
 > **data**: [`StrapiEntity`](StrapiEntity.md)\<`T`\> \| [`StrapiEntity`](StrapiEntity.md)\<`T`\>[]
 
-Defined in: [src/types/strapi.types.ts:13](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/strapi.types.ts#L13)
+Defined in: [src/types/strapi.types.ts:13](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/strapi.types.ts#L13)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [src/types/strapi.types.ts:13](https://github.com/iRyann/enzobagneri
 
 > `optional` **meta**: `Record`\<`string`, `unknown`\>
 
-Defined in: [src/types/strapi.types.ts:14](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/strapi.types.ts#L14)
+Defined in: [src/types/strapi.types.ts:14](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/strapi.types.ts#L14)

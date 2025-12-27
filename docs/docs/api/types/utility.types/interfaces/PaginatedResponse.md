@@ -6,7 +6,7 @@
 
 # Interface: PaginatedResponse\<T\>
 
-Defined in: [src/types/utility.types.ts:11](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/utility.types.ts#L11)
+Defined in: [src/types/utility.types.ts:11](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/utility.types.ts#L11)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [src/types/utility.types.ts:11](https://github.com/iRyann/enzobagner
 
 > **data**: `T`[]
 
-Defined in: [src/types/utility.types.ts:12](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/utility.types.ts#L12)
+Defined in: [src/types/utility.types.ts:12](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/utility.types.ts#L12)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/types/utility.types.ts:12](https://github.com/iRyann/enzobagner
 
 > **meta**: `object`
 
-Defined in: [src/types/utility.types.ts:13](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/utility.types.ts#L13)
+Defined in: [src/types/utility.types.ts:13](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/utility.types.ts#L13)
 
 #### page
 

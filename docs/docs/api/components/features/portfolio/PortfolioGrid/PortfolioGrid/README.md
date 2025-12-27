@@ -6,6 +6,10 @@
 
 # components/features/portfolio/PortfolioGrid/PortfolioGrid
 
+## Interfaces
+
+- [PortfolioGridProps](interfaces/PortfolioGridProps.md)
+
 ## Functions
 
 - [PortfolioGrid](functions/PortfolioGrid.md)

@@ -6,7 +6,7 @@
 
 # Interface: StrapiEntity\<T\>
 
-Defined in: [src/types/strapi.types.ts:4](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/strapi.types.ts#L4)
+Defined in: [src/types/strapi.types.ts:4](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/strapi.types.ts#L4)
 
 Champs generiques utilises par Strapi.
 
@@ -22,7 +22,7 @@ Champs generiques utilises par Strapi.
 
 > **id**: `string` \| `number`
 
-Defined in: [src/types/strapi.types.ts:5](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/strapi.types.ts#L5)
+Defined in: [src/types/strapi.types.ts:5](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/strapi.types.ts#L5)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [src/types/strapi.types.ts:5](https://github.com/iRyann/enzobagneris
 
 > **attributes**: `T`
 
-Defined in: [src/types/strapi.types.ts:6](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/strapi.types.ts#L6)
+Defined in: [src/types/strapi.types.ts:6](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/strapi.types.ts#L6)

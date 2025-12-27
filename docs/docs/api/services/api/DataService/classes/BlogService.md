@@ -6,7 +6,7 @@
 
 # Class: BlogService
 
-Defined in: [src/services/api/DataService.ts:9](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/DataService.ts#L9)
+Defined in: [src/services/api/DataService.ts:9](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/DataService.ts#L9)
 
 ## Extends
 
@@ -32,7 +32,7 @@ Defined in: [src/services/api/DataService.ts:9](https://github.com/iRyann/enzoba
 
 > **getAll**(): `Promise`\<[`BlogPost`](../../../../types/blog.types/interfaces/BlogPost.md)[]\>
 
-Defined in: [src/services/api/DataService.ts:16](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/DataService.ts#L16)
+Defined in: [src/services/api/DataService.ts:16](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/DataService.ts#L16)
 
 #### Returns
 
@@ -44,7 +44,7 @@ Defined in: [src/services/api/DataService.ts:16](https://github.com/iRyann/enzob
 
 > **getBySlug**(`slug`): `Promise`\<[`BlogPost`](../../../../types/blog.types/interfaces/BlogPost.md) \| `null`\>
 
-Defined in: [src/services/api/DataService.ts:20](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/DataService.ts#L20)
+Defined in: [src/services/api/DataService.ts:20](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/DataService.ts#L20)
 
 #### Parameters
 
@@ -62,7 +62,7 @@ Defined in: [src/services/api/DataService.ts:20](https://github.com/iRyann/enzob
 
 > **getFeatured**(): `Promise`\<[`BlogPost`](../../../../types/blog.types/interfaces/BlogPost.md)[]\>
 
-Defined in: [src/services/api/DataService.ts:25](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/DataService.ts#L25)
+Defined in: [src/services/api/DataService.ts:25](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/DataService.ts#L25)
 
 #### Returns
 

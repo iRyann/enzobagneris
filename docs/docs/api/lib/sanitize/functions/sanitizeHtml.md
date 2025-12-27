@@ -8,7 +8,7 @@
 
 > **sanitizeHtml**(`html`): `string`
 
-Defined in: [src/lib/sanitize.ts:28](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/lib/sanitize.ts#L28)
+Defined in: [src/lib/sanitize.ts:28](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/lib/sanitize.ts#L28)
 
 Sanitize du HTML pour prevenir les attaques XSS.
 

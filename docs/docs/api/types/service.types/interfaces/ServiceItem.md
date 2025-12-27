@@ -6,7 +6,7 @@
 
 # Interface: ServiceItem
 
-Defined in: [src/types/service.types.ts:6](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/service.types.ts#L6)
+Defined in: [src/types/service.types.ts:6](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/service.types.ts#L6)
 
 Service propose sur le site.
 
@@ -16,7 +16,7 @@ Service propose sur le site.
 
 > **id**: `string`
 
-Defined in: [src/types/service.types.ts:7](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/service.types.ts#L7)
+Defined in: [src/types/service.types.ts:7](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/service.types.ts#L7)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/types/service.types.ts:7](https://github.com/iRyann/enzobagneri
 
 > **title**: `string`
 
-Defined in: [src/types/service.types.ts:8](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/service.types.ts#L8)
+Defined in: [src/types/service.types.ts:8](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/service.types.ts#L8)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [src/types/service.types.ts:8](https://github.com/iRyann/enzobagneri
 
 > **description**: `string`
 
-Defined in: [src/types/service.types.ts:9](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/service.types.ts#L9)
+Defined in: [src/types/service.types.ts:9](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/service.types.ts#L9)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [src/types/service.types.ts:9](https://github.com/iRyann/enzobagneri
 
 > **image**: [`ImageAsset`](../../common.types/interfaces/ImageAsset.md)
 
-Defined in: [src/types/service.types.ts:10](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/service.types.ts#L10)
+Defined in: [src/types/service.types.ts:10](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/service.types.ts#L10)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [src/types/service.types.ts:10](https://github.com/iRyann/enzobagner
 
 > `optional` **reverseLayout**: `boolean`
 
-Defined in: [src/types/service.types.ts:11](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/service.types.ts#L11)
+Defined in: [src/types/service.types.ts:11](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/service.types.ts#L11)
 
 ***
 
@@ -56,4 +56,4 @@ Defined in: [src/types/service.types.ts:11](https://github.com/iRyann/enzobagner
 
 > `optional` **ctaText**: `string`
 
-Defined in: [src/types/service.types.ts:12](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/service.types.ts#L12)
+Defined in: [src/types/service.types.ts:12](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/service.types.ts#L12)

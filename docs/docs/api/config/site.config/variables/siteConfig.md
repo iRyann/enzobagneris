@@ -8,7 +8,7 @@
 
 > `const` **siteConfig**: `object`
 
-Defined in: [src/config/site.config.ts:4](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/config/site.config.ts#L4)
+Defined in: [src/config/site.config.ts:4](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/config/site.config.ts#L4)
 
 Configuration generale du site.
 

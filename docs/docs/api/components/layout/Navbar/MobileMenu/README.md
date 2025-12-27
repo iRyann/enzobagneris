@@ -6,6 +6,10 @@
 
 # components/layout/Navbar/MobileMenu
 
+## Interfaces
+
+- [MobileMenuProps](interfaces/MobileMenuProps.md)
+
 ## Functions
 
 - [MobileMenu](functions/MobileMenu.md)

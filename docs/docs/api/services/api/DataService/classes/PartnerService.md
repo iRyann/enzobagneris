@@ -6,7 +6,7 @@
 
 # Class: PartnerService
 
-Defined in: [src/services/api/DataService.ts:55](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/DataService.ts#L55)
+Defined in: [src/services/api/DataService.ts:55](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/DataService.ts#L55)
 
 ## Extends
 
@@ -32,7 +32,7 @@ Defined in: [src/services/api/DataService.ts:55](https://github.com/iRyann/enzob
 
 > **getAll**(): `Promise`\<[`Partner`](../../../../types/service.types/interfaces/Partner.md)[]\>
 
-Defined in: [src/services/api/DataService.ts:62](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/DataService.ts#L62)
+Defined in: [src/services/api/DataService.ts:62](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/DataService.ts#L62)
 
 #### Returns
 

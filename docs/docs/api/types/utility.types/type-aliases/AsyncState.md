@@ -8,7 +8,7 @@
 
 > **AsyncState**\<`T`\> = \{ `status`: `"idle"`; \} \| \{ `status`: `"loading"`; \} \| \{ `status`: `"success"`; `data`: `T`; \} \| \{ `status`: `"error"`; `error`: [`APIError`](../../error.types/interfaces/APIError.md); \}
 
-Defined in: [src/types/utility.types.ts:5](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/utility.types.ts#L5)
+Defined in: [src/types/utility.types.ts:5](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/utility.types.ts#L5)
 
 ## Type Parameters
 

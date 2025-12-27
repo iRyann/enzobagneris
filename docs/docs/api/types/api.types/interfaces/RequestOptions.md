@@ -6,7 +6,7 @@
 
 # Interface: RequestOptions
 
-Defined in: [src/types/api.types.ts:9](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L9)
+Defined in: [src/types/api.types.ts:9](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L9)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/api.types.ts:9](https://github.com/iRyann/enzobagneris/bl
 
 > `optional` **signal**: `AbortSignal`
 
-Defined in: [src/types/api.types.ts:10](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L10)
+Defined in: [src/types/api.types.ts:10](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L10)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/api.types.ts:10](https://github.com/iRyann/enzobagneris/b
 
 > `optional` **headers**: `Record`\<`string`, `string`\>
 
-Defined in: [src/types/api.types.ts:11](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L11)
+Defined in: [src/types/api.types.ts:11](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L11)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [src/types/api.types.ts:11](https://github.com/iRyann/enzobagneris/b
 
 > `optional` **params**: `Record`\<`string`, `string` \| `number` \| `boolean`\>
 
-Defined in: [src/types/api.types.ts:12](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L12)
+Defined in: [src/types/api.types.ts:12](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L12)

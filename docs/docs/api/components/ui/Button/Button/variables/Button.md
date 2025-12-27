@@ -8,6 +8,6 @@
 
 > `const` **Button**: `ForwardRefExoticComponent`\<[`ButtonProps`](../interfaces/ButtonProps.md) & `RefAttributes`\<`HTMLButtonElement`\>\>
 
-Defined in: [src/components/ui/Button/Button.tsx:32](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/ui/Button/Button.tsx#L32)
+Defined in: [src/components/ui/Button/Button.tsx:32](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/ui/Button/Button.tsx#L32)
 
 Composant Button reutilisable avec variants.

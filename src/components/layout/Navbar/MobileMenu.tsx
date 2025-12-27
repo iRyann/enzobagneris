@@ -5,7 +5,7 @@ import { NavItem } from './NavItem';
 /**
  * Props du menu mobile.
  */
-interface MobileMenuProps {
+export interface MobileMenuProps {
   items: ReadonlyArray<NavigationItem>;
   onClose: () => void;
 }

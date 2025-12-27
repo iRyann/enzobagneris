@@ -6,7 +6,7 @@
 
 # Interface: APIResponse\<T\>
 
-Defined in: [src/types/api.types.ts:15](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L15)
+Defined in: [src/types/api.types.ts:15](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L15)
 
 ## Type Parameters
 
@@ -20,7 +20,7 @@ Defined in: [src/types/api.types.ts:15](https://github.com/iRyann/enzobagneris/b
 
 > **data**: `T`
 
-Defined in: [src/types/api.types.ts:16](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L16)
+Defined in: [src/types/api.types.ts:16](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L16)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [src/types/api.types.ts:16](https://github.com/iRyann/enzobagneris/b
 
 > `optional` **meta**: `object`
 
-Defined in: [src/types/api.types.ts:17](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L17)
+Defined in: [src/types/api.types.ts:17](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L17)
 
 #### timestamp
 
@@ -44,4 +44,4 @@ Defined in: [src/types/api.types.ts:17](https://github.com/iRyann/enzobagneris/b
 
 > `optional` **error**: [`APIError`](../../error.types/interfaces/APIError.md)
 
-Defined in: [src/types/api.types.ts:21](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L21)
+Defined in: [src/types/api.types.ts:21](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L21)

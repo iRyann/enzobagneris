@@ -6,7 +6,7 @@
 
 # Class: NotFoundError
 
-Defined in: [src/types/error.types.ts:38](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L38)
+Defined in: [src/types/error.types.ts:38](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L38)
 
 ## Extends
 
@@ -18,7 +18,7 @@ Defined in: [src/types/error.types.ts:38](https://github.com/iRyann/enzobagneris
 
 > **new NotFoundError**(`resource`, `identifier`): `NotFoundError`
 
-Defined in: [src/types/error.types.ts:39](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L39)
+Defined in: [src/types/error.types.ts:39](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L39)
 
 #### Parameters
 
@@ -66,7 +66,7 @@ not capture any frames.
 
 > **code**: `string`
 
-Defined in: [src/types/error.types.ts:10](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L10)
+Defined in: [src/types/error.types.ts:10](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L10)
 
 #### Inherited from
 
@@ -78,7 +78,7 @@ Defined in: [src/types/error.types.ts:10](https://github.com/iRyann/enzobagneris
 
 > **statusCode**: `number`
 
-Defined in: [src/types/error.types.ts:11](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L11)
+Defined in: [src/types/error.types.ts:11](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L11)
 
 #### Inherited from
 
@@ -90,7 +90,7 @@ Defined in: [src/types/error.types.ts:11](https://github.com/iRyann/enzobagneris
 
 > `optional` **details**: `Record`\<`string`, `unknown`\>
 
-Defined in: [src/types/error.types.ts:12](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L12)
+Defined in: [src/types/error.types.ts:12](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L12)
 
 #### Inherited from
 
@@ -250,7 +250,7 @@ https://v8.dev/docs/stack-trace-api#customizing-stack-traces
 
 > **toJSON**(): [`APIError`](../interfaces/APIError.md)
 
-Defined in: [src/types/error.types.ts:27](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/error.types.ts#L27)
+Defined in: [src/types/error.types.ts:27](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/error.types.ts#L27)
 
 #### Returns
 

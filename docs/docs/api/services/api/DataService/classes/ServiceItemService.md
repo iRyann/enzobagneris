@@ -6,7 +6,7 @@
 
 # Class: ServiceItemService
 
-Defined in: [src/services/api/DataService.ts:43](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/DataService.ts#L43)
+Defined in: [src/services/api/DataService.ts:43](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/DataService.ts#L43)
 
 ## Extends
 
@@ -32,7 +32,7 @@ Defined in: [src/services/api/DataService.ts:43](https://github.com/iRyann/enzob
 
 > **getAll**(): `Promise`\<[`ServiceItem`](../../../../types/service.types/interfaces/ServiceItem.md)[]\>
 
-Defined in: [src/services/api/DataService.ts:50](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/services/api/DataService.ts#L50)
+Defined in: [src/services/api/DataService.ts:50](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/services/api/DataService.ts#L50)
 
 #### Returns
 

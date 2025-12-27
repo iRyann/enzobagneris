@@ -8,7 +8,7 @@
 
 > **HomePage**(): `Element`
 
-Defined in: [src/pages/HomePage.tsx:9](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/pages/HomePage.tsx#L9)
+Defined in: [src/pages/HomePage.tsx:9](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/pages/HomePage.tsx#L9)
 
 Page d'accueil.
 

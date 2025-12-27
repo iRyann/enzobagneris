@@ -8,7 +8,7 @@
 
 > **BlogList**(): `Element`
 
-Defined in: [src/components/features/blog/BlogList/BlogList.tsx:8](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/features/blog/BlogList/BlogList.tsx#L8)
+Defined in: [src/components/features/blog/BlogList/BlogList.tsx:8](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/features/blog/BlogList/BlogList.tsx#L8)
 
 Liste des articles du blog.
 

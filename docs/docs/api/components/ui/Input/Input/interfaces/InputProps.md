@@ -6,7 +6,7 @@
 
 # Interface: InputProps
 
-Defined in: [src/components/ui/Input/Input.tsx:7](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/ui/Input/Input.tsx#L7)
+Defined in: [src/components/ui/Input/Input.tsx:7](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/ui/Input/Input.tsx#L7)
 
 Props du composant Input.
 
@@ -3993,7 +3993,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.2.7/node\_modules/@types/react/i
 
 > `optional` **variant**: `"default"` \| `"underline"`
 
-Defined in: [src/components/ui/Input/Input.tsx:12](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/ui/Input/Input.tsx#L12)
+Defined in: [src/components/ui/Input/Input.tsx:12](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/ui/Input/Input.tsx#L12)
 
 Variant visuel.
 

@@ -5,7 +5,7 @@ import { ProjectCard } from '../ProjectCard/ProjectCard';
 /**
  * Props du composant PortfolioGrid.
  */
-interface PortfolioGridProps {
+export interface PortfolioGridProps {
   title?: string;
   description?: string;
   limit?: number;

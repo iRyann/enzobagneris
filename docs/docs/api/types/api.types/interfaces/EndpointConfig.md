@@ -6,7 +6,7 @@
 
 # Interface: EndpointConfig
 
-Defined in: [src/types/api.types.ts:3](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L3)
+Defined in: [src/types/api.types.ts:3](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L3)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/types/api.types.ts:3](https://github.com/iRyann/enzobagneris/bl
 
 > **baseURL**: `string`
 
-Defined in: [src/types/api.types.ts:4](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L4)
+Defined in: [src/types/api.types.ts:4](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L4)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [src/types/api.types.ts:4](https://github.com/iRyann/enzobagneris/bl
 
 > **timeout**: `number`
 
-Defined in: [src/types/api.types.ts:5](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L5)
+Defined in: [src/types/api.types.ts:5](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L5)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [src/types/api.types.ts:5](https://github.com/iRyann/enzobagneris/bl
 
 > **headers**: `Record`\<`string`, `string`\>
 
-Defined in: [src/types/api.types.ts:6](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/api.types.ts#L6)
+Defined in: [src/types/api.types.ts:6](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/api.types.ts#L6)

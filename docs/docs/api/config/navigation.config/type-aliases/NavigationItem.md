@@ -8,4 +8,4 @@
 
 > **NavigationItem** = *typeof* [`navigationConfig`](../variables/navigationConfig.md)\[`number`\]
 
-Defined in: [src/config/navigation.config.ts:13](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/config/navigation.config.ts#L13)
+Defined in: [src/config/navigation.config.ts:13](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/config/navigation.config.ts#L13)

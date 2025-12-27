@@ -6,7 +6,7 @@
 
 # Interface: TextareaProps
 
-Defined in: [src/components/ui/Textarea/Textarea.tsx:7](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/ui/Textarea/Textarea.tsx#L7)
+Defined in: [src/components/ui/Textarea/Textarea.tsx:7](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/ui/Textarea/Textarea.tsx#L7)
 
 Props du composant Textarea.
 
@@ -3801,7 +3801,7 @@ Defined in: node\_modules/.pnpm/@types+react@19.2.7/node\_modules/@types/react/i
 
 > `optional` **variant**: `"default"` \| `"underline"`
 
-Defined in: [src/components/ui/Textarea/Textarea.tsx:13](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/ui/Textarea/Textarea.tsx#L13)
+Defined in: [src/components/ui/Textarea/Textarea.tsx:13](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/ui/Textarea/Textarea.tsx#L13)
 
 Variant visuel.
 

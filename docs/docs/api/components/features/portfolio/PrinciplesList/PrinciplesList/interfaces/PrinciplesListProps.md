@@ -6,7 +6,7 @@
 
 # Interface: PrinciplesListProps
 
-Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:6](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L6)
+Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:6](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L6)
 
 Props du composant PrinciplesList.
 
@@ -16,7 +16,7 @@ Props du composant PrinciplesList.
 
 > **title**: `string`
 
-Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:7](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L7)
+Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:7](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L7)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx
 
 > **icon**: `LucideIcon`
 
-Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:8](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L8)
+Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:8](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L8)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx
 
 > **items**: `string`[]
 
-Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:9](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L9)
+Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:9](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L9)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx
 
 > **accentClass**: `` `bg-${string}` ``
 
-Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:10](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L10)
+Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:10](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L10)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx
 
 > **iconClass**: `` `text-${string}` ``
 
-Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:11](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L11)
+Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:11](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L11)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx
 
 > **borderClass**: `` `border-${string}` ``
 
-Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:12](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L12)
+Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:12](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L12)
 
 ***
 
@@ -64,4 +64,4 @@ Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx
 
 > `optional` **titleClassName**: `string`
 
-Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:13](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L13)
+Defined in: [src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx:13](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/components/features/portfolio/PrinciplesList/PrinciplesList.tsx#L13)

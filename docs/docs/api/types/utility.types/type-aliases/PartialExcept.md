@@ -8,7 +8,7 @@
 
 > **PartialExcept**\<`T`, `K`\> = `Partial`\<`T`\> & `Pick`\<`T`, `K`\>
 
-Defined in: [src/types/utility.types.ts:3](https://github.com/iRyann/enzobagneris/blob/5f7deb86a0e5269233c5167282c96fddcf42dd4d/src/types/utility.types.ts#L3)
+Defined in: [src/types/utility.types.ts:3](https://github.com/iRyann/enzobagneris/blob/b22193ffc362c1ca9a04744a04e79e1af7da0f36/src/types/utility.types.ts#L3)
 
 ## Type Parameters
 
