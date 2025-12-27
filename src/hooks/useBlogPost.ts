@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import blogData from '@/data/blog.json';
+import { blogService } from '@/services/api';
 import type { BlogPost } from '@/types';
 
 /**
@@ -14,9 +14,8 @@ export function useBlogPost(slug?: string) {
     const fetchPost = async () => {
       try {
         setLoading(true);
-        const posts = blogData as BlogPost[];
-        const found = posts.find((item) => item.slug === slug) || null;
-        setPost(found);
+        const data = await blogService.getBySlug(slug || '');
+        setPost(data);
       } catch (err) {
         setError(err as Error);
       } finally {

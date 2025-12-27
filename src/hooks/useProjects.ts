@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import projectsData from '@/data/projects.json';
+import { projectService } from '@/services/api';
 import type { Project } from '@/types';
 
 /**
@@ -14,8 +14,8 @@ export function useProjects() {
     const fetchProjects = async () => {
       try {
         setLoading(true);
-        // TODO: Remplacer par fetch Strapi API
-        setProjects(projectsData as Project[]);
+        const data = await projectService.getAll();
+        setProjects(data);
       } catch (err) {
         setError(err as Error);
       } finally {

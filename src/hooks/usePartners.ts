@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import partnersData from '@/data/partners.json';
+import { partnerService } from '@/services/api';
 import type { Partner } from '@/types';
 
 /**
@@ -14,8 +14,8 @@ export function usePartners() {
     const fetchPartners = async () => {
       try {
         setLoading(true);
-        // TODO: Remplacer par fetch Strapi API
-        setPartners(partnersData as Partner[]);
+        const data = await partnerService.getAll();
+        setPartners(data);
       } catch (err) {
         setError(err as Error);
       } finally {

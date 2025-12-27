@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import blogData from '@/data/blog.json';
+import { blogService } from '@/services/api';
 import type { BlogPost } from '@/types';
 
 /**
@@ -14,8 +14,8 @@ export function useBlogPosts() {
     const fetchPosts = async () => {
       try {
         setLoading(true);
-        // TODO: Remplacer par fetch Strapi API
-        setPosts(blogData as BlogPost[]);
+        const data = await blogService.getAll();
+        setPosts(data);
       } catch (err) {
         setError(err as Error);
       } finally {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import servicesData from '@/data/services.json';
+import { serviceItemService } from '@/services/api';
 import type { ServiceItem } from '@/types';
 
 /**
@@ -14,8 +14,8 @@ export function useServices() {
     const fetchServices = async () => {
       try {
         setLoading(true);
-        // TODO: Remplacer par fetch Strapi API
-        setServices(servicesData as ServiceItem[]);
+        const data = await serviceItemService.getAll();
+        setServices(data);
       } catch (err) {
         setError(err as Error);
       } finally {
