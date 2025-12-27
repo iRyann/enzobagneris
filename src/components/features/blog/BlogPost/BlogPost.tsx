@@ -35,7 +35,21 @@ export function BlogPost() {
     );
   }
 
-  const sanitizedContent = useSanitizedHTML(post.content);
+  const { sanitized, error } = useSanitizedHTML(post.content);
+
+  if (error) {
+    return (
+      <div className="min-h-screen bg-nature-light pt-24 pb-20">
+        <div className="container mx-auto px-6">
+          <div className="bg-red-50 border border-red-200 rounded-lg p-6">
+            <p className="text-red-800">
+              Une erreur de securite a ete detectee dans le contenu.
+            </p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <article className="bg-nature-light min-h-screen pt-24 pb-20 animate-in fade-in duration-500">
@@ -80,7 +94,7 @@ export function BlogPost() {
         <div
           className="prose prose-lg prose-headings:font-display prose-headings:text-nature-dark prose-p:font-serif prose-p:text-nature-text prose-a:text-nature-accent hover:prose-a:text-nature-dark prose-img:rounded-xl"
           // Sanitization mandatory to prevent XSS with HTML content.
-          dangerouslySetInnerHTML={{ __html: sanitizedContent }}
+          dangerouslySetInnerHTML={{ __html: sanitized }}
         ></div>
 
         <div className="mt-16 pt-8 border-t border-nature-dark/10 flex justify-between items-center">
