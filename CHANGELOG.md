@@ -16,6 +16,7 @@
 - Blog HTML sanitization is stricter with link hardening and error handling.
 - Data hooks now wrap React Query caches for loading and error state.
 - TypeScript runs in strict mode and PrinciplesList uses typed Lucide icons.
+- Exported props interfaces for TypeDoc (PortfolioGridProps, MobileMenuProps).
 
 ### Removed
 - Contact form and related validation hooks/types.
