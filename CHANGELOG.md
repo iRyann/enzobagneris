@@ -7,6 +7,8 @@
 - HTML validation helper for suspicious content and size limits.
 - React Query client and query hooks for cached data access.
 - Typed API, error, and utility type definitions for stricter models.
+- Docusaurus documentation site under `docs/` with initial guides and API section.
+- TypeDoc configuration for generating API reference into `docs/docs/api`.
 
 ### Changed
 - Hooks now load data through services instead of importing JSON directly.

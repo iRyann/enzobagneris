@@ -15,6 +15,9 @@ Refactorisation d'un portfolio React/TypeScript pour une architecture modulaire 
 - `pnpm dev` : lancement en mode dev
 - `pnpm build` : build production
 - `pnpm preview` : preview du build
+- `pnpm docs:dev` : docs locales (Docusaurus)
+- `pnpm docs:build` : build des docs
+- `pnpm docs:api` : generation de la reference API (TypeDoc)
 
 ## Structure rapide
 
