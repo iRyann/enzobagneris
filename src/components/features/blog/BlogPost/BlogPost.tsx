@@ -9,6 +9,7 @@ import { useBlogPost, useSanitizedHTML } from '@/hooks';
 export function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
   const { post, loading } = useBlogPost(slug);
+  const { sanitized, error } = useSanitizedHTML(post?.content || '');
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -34,8 +35,6 @@ export function BlogPost() {
       </div>
     );
   }
-
-  const { sanitized, error } = useSanitizedHTML(post.content);
 
   if (error) {
     return (
