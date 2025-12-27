@@ -6,3 +6,5 @@ export { usePartners } from './usePartners';
 export { useSanitizedHTML } from './useSanitizedHTML';
 export { useScrollToTop } from './useScrollToTop';
 export { useMediaQuery } from './useMediaQuery';
+export { useDebounce } from './useDebounce';
+export { useFormValidation } from './useFormValidation';
