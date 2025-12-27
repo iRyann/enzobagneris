@@ -18,7 +18,7 @@ export function Hero() {
         <div className="text-center md:text-left space-y-10 z-20">
           <div className="space-y-4">
             <p className="font-heading italic text-2xl text-nature-accent">Bonjour, je suis</p>
-            <h1 className="font-display text-6xl md:text-8xl lg:text-9xl text-nature-dark leading-[0.9]">
+            <h1 className="font-display text-[clamp(3rem,6vw,5rem)] md:text-[clamp(4rem,7vw,6rem)] lg:text-[clamp(5rem,8vw,7rem)] text-nature-dark leading-[0.9]">
               ENZO<br />BAGNERIS
             </h1>
 

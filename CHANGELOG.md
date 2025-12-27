@@ -7,3 +7,4 @@
 
 ### Changed
 - Hooks now load data through services instead of importing JSON directly.
+- Tailwind containers and typography now use responsive scaling defaults.
