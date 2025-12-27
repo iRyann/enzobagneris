@@ -1,30 +1,15 @@
-import { useEffect, useState } from 'react';
-import { partnerService } from '@/services/api';
 import type { Partner } from '@/types';
+import { usePartnersQuery } from '@/lib/queries/partnerQueries';
 
 /**
  * Hook pour recuperer les partenaires.
  */
 export function usePartners() {
-  const [partners, setPartners] = useState<Partner[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<Error | null>(null);
+  const { data, isLoading, error } = usePartnersQuery();
 
-  useEffect(() => {
-    const fetchPartners = async () => {
-      try {
-        setLoading(true);
-        const data = await partnerService.getAll();
-        setPartners(data);
-      } catch (err) {
-        setError(err as Error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchPartners();
-  }, []);
-
-  return { partners, loading, error };
+  return {
+    partners: (data || []) as Partner[],
+    loading: isLoading,
+    error: error as Error | null,
+  };
 }

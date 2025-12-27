@@ -1,35 +1,15 @@
-import { useEffect, useState } from 'react';
-import { blogService } from '@/services/api';
 import type { BlogPost } from '@/types';
+import { useBlogPostQuery } from '@/lib/queries/blogQueries';
 
 /**
  * Hook pour recuperer un article de blog par slug.
  */
 export function useBlogPost(slug?: string) {
-  const [post, setPost] = useState<BlogPost | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<Error | null>(null);
+  const { data, isLoading, error } = useBlogPostQuery(slug);
 
-  useEffect(() => {
-    const fetchPost = async () => {
-      try {
-        setLoading(true);
-        const data = await blogService.getBySlug(slug || '');
-        setPost(data);
-      } catch (err) {
-        setError(err as Error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    if (slug) {
-      fetchPost();
-    } else {
-      setPost(null);
-      setLoading(false);
-    }
-  }, [slug]);
-
-  return { post, loading, error };
+  return {
+    post: (data || null) as BlogPost | null,
+    loading: isLoading,
+    error: error as Error | null,
+  };
 }

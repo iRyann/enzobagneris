@@ -1,30 +1,15 @@
-import { useEffect, useState } from 'react';
-import { serviceItemService } from '@/services/api';
 import type { ServiceItem } from '@/types';
+import { useServicesQuery } from '@/lib/queries/serviceQueries';
 
 /**
  * Hook pour recuperer les services.
  */
 export function useServices() {
-  const [services, setServices] = useState<ServiceItem[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<Error | null>(null);
+  const { data, isLoading, error } = useServicesQuery();
 
-  useEffect(() => {
-    const fetchServices = async () => {
-      try {
-        setLoading(true);
-        const data = await serviceItemService.getAll();
-        setServices(data);
-      } catch (err) {
-        setError(err as Error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchServices();
-  }, []);
-
-  return { services, loading, error };
+  return {
+    services: (data || []) as ServiceItem[],
+    loading: isLoading,
+    error: error as Error | null,
+  };
 }
