@@ -1,3 +1,3 @@
 # Lib
 
-Utilitaires, helpers, sanitization et validation centralises.
+Utilitaires, helpers et sanitization centralises.

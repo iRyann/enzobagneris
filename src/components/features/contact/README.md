@@ -1,3 +1,3 @@
 # Contact Feature
 
-Composants de contact (infos et formulaire).
+Composants de contact (infos).
