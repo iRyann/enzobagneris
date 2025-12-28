@@ -1,32 +1,54 @@
-import "./global.css";
-import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Index from "./pages/Index";
-import APropos from "./pages/APropos";
-import Animation from "./pages/Animation";
-import Randonnee from "./pages/Randonnee";
-import GMNF from "./pages/GMNF";
-import NotFound from "./pages/NotFound";
+import { useEffect } from 'react';
+import { QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { MemoryRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { PageLayout } from '@/components/layout';
+import { queryClient } from '@/lib/queryClient';
+import { BlogPage, BlogPostPage, CVPage, HomePage, PortfolioPage, ServicesPage } from '@/pages';
 
-const App = () => (
-  <BrowserRouter>
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1">
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/a-propos" element={<APropos />} />
-          <Route path="/animation" element={<Animation />} />
-          <Route path="/randonnee" element={<Randonnee />} />
-          <Route path="/gmnf" element={<GMNF />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </main>
-      <Footer />
-    </div>
-  </BrowserRouter>
-);
+/**
+ * Gère le defilement automatique vers les ancres (#contact, etc.).
+ */
+function ScrollToAnchor() {
+  const { pathname, hash } = useLocation();
 
-createRoot(document.getElementById("root")!).render(<App />);
+  useEffect(() => {
+    if (hash) {
+      const id = hash.replace('#', '');
+      setTimeout(() => {
+        const element = document.getElementById(id);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }, [pathname, hash]);
+
+  return null;
+}
+
+/**
+ * Point d'entree de l'application.
+ */
+export default function App() {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <MemoryRouter>
+        <PageLayout>
+          <ScrollToAnchor />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/:slug" element={<BlogPostPage />} />
+            <Route path="/about" element={<CVPage />} />
+          </Routes>
+        </PageLayout>
+      </MemoryRouter>
+      {import.meta.env.DEV && <ReactQueryDevtools initialIsOpen={false} />}
+    </QueryClientProvider>
+  );
+}

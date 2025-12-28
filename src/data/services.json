@@ -1,0 +1,35 @@
+[
+  {
+    "id": "gestion",
+    "title": "Gestion et protection de la nature",
+    "description": "Expertise technique pour l'inventaire faune/flore, la création de plans de gestion et la restauration de milieux dégradés. J'accompagne les collectivités et les privés dans une démarche durable.",
+    "image": {
+      "url": "/assets/images/placeholders/service-placeholder.svg",
+      "alt": "Gestion et protection de la nature"
+    },
+    "ctaText": "Détail pour les pros",
+    "reverseLayout": false
+  },
+  {
+    "id": "animation",
+    "title": "Animation nature",
+    "description": "Ateliers pédagogiques pour écoles, centres de loisirs ou grand public. Découverte des insectes, lecture de paysage, traces et indices... Apprendre en s'amusant au cœur du terrain.",
+    "image": {
+      "url": "/assets/images/placeholders/service-placeholder.svg",
+      "alt": "Animation nature"
+    },
+    "ctaText": "Offre Scolaire",
+    "reverseLayout": true
+  },
+  {
+    "id": "randonnee",
+    "title": "Randonnée & Montagnisme",
+    "description": "Sorties guidées en montagne. De la balade contemplative à l'initiation à l'orientation et au bivouac. Sécurité, convivialité et immersion totale.",
+    "image": {
+      "url": "/assets/images/placeholders/service-placeholder.svg",
+      "alt": "Randonnée et montagnisme"
+    },
+    "ctaText": "Sorties Grand Public",
+    "reverseLayout": false
+  }
+]

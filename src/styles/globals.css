@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import './fonts.css';
+@config "../../tailwind.config.cjs";
+
+/* Custom scrollbar for a polished look */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3efe7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #284b3a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d85c36;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+  color: transparent;
+}
+
+@layer base {
+  html {
+    font-size: clamp(16px, 1vw + 0.5rem, 18px);
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+  }
+
+  h2 {
+    font-size: clamp(2rem, 4vw, 3rem);
+  }
+}

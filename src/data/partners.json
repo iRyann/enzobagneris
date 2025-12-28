@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Parc National des Pyrénées",
+    "logo": {
+      "url": "/assets/images/placeholders/partner-placeholder.svg",
+      "alt": "Parc National des Pyrénées"
+    }
+  },
+  {
+    "name": "Pierre & Terre",
+    "logo": {
+      "url": "/assets/images/placeholders/partner-placeholder.svg",
+      "alt": "Pierre & Terre"
+    }
+  },
+  {
+    "name": "Point Vert",
+    "logo": {
+      "url": "/assets/images/placeholders/partner-placeholder.svg",
+      "alt": "Point Vert"
+    }
+  }
+]

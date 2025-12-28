@@ -1,0 +1,166 @@
+[
+  {
+    "id": "classe-decouverte",
+    "slug": "classe-decouverte",
+    "title": "Classe découverte en montagne",
+    "subtitle": "À la découverte de la faune et de la flore",
+    "target": "Scolaire (3 à 6 ans)",
+    "description": "Programme immersif en montagne pour les 3-6 ans.",
+    "coverImage": {
+      "url": "/assets/images/placeholders/project-placeholder.svg",
+      "alt": "Classe découverte en montagne"
+    },
+    "principlesEnvironmental": [
+      {
+        "text": "Découverte de la montagne pyrénéenne : sensibilisation aux milieux locaux.",
+        "order": 1
+      },
+      {
+        "text": "Biodiversité : initiation aux rapaces diurnes (espèces emblématiques).",
+        "order": 2
+      }
+    ],
+    "principlesPedagogical": [
+      {
+        "text": "Approche ludique : puzzles, énigmes, supports visuels adaptés aux non-lecteurs.",
+        "order": 1
+      },
+      {
+        "text": "Pédagogie active : manipulation d'objets concrets.",
+        "order": 2
+      },
+      {
+        "text": "Souvenir concret : le puzzle emporté par les enfants.",
+        "order": 3
+      }
+    ],
+    "icon": "Leaf",
+    "category": "animation",
+    "date": "2023-10"
+  },
+  {
+    "id": "phyt-abeilles",
+    "slug": "phyt-abeilles",
+    "title": "Atelier Phyt'Abeilles",
+    "subtitle": "Déterminations, identification et protocole",
+    "target": "Primaire à BTS",
+    "description": "Atelier scientifique autour des pollinisateurs et des protocoles.",
+    "coverImage": {
+      "url": "/assets/images/placeholders/project-placeholder.svg",
+      "alt": "Atelier Phyt'Abeilles"
+    },
+    "principlesEnvironmental": [
+      {
+        "text": "Biodiversité et pollinisation : importance écologique des abeilles sauvages.",
+        "order": 1
+      },
+      {
+        "text": "Science participative : implication dans un protocole scientifique reconnu.",
+        "order": 2
+      }
+    ],
+    "principlesPedagogical": [
+      {
+        "text": "Découverte active : ateliers pratiques au microscope.",
+        "order": 1
+      },
+      {
+        "text": "Curiosité et ludique : démarche scientifique transformée en expérience captivante.",
+        "order": 2
+      },
+      {
+        "text": "Adaptabilité : animation modulable selon l'âge.",
+        "order": 3
+      }
+    ],
+    "icon": "Microscope",
+    "category": "mediation",
+    "date": "2023-09"
+  },
+  {
+    "id": "hotel-insectes",
+    "slug": "hotel-insectes",
+    "title": "Rénovation d'un Hôtel à insectes",
+    "subtitle": "Un foyer pour la vie des plus petits",
+    "target": "Collégiens / Grand Public",
+    "description": "Chantier participatif pour créer des habitats adaptés aux auxiliaires.",
+    "coverImage": {
+      "url": "/assets/images/placeholders/project-placeholder.svg",
+      "alt": "Rénovation d'un hôtel à insectes"
+    },
+    "principlesEnvironmental": [
+      {
+        "text": "Préservation de la biodiversité : création d'habitats pour les auxiliaires.",
+        "order": 1
+      },
+      {
+        "text": "Approche écologique : utilisation de matériaux de récupération et locaux.",
+        "order": 2
+      },
+      {
+        "text": "Lien avec la sensibilisation : support pédagogique durable.",
+        "order": 3
+      }
+    ],
+    "principlesPedagogical": [
+      {
+        "text": "Potentiel pédagogique : support pour sensibiliser aux cycles de vie.",
+        "order": 1
+      },
+      {
+        "text": "Expérience tiers : participation à une animation de groupe.",
+        "order": 2
+      },
+      {
+        "text": "Travail manuel et valorisation des ressources.",
+        "order": 3
+      }
+    ],
+    "icon": "Hammer",
+    "category": "mediation",
+    "date": "2023-06"
+  },
+  {
+    "id": "randonnee-decouverte",
+    "slug": "randonnee-decouverte",
+    "title": "Randonnée découverte",
+    "subtitle": "Faune et flore des montagnes pyrénéennes",
+    "target": "Collège (4ème/3ème) & Lycée",
+    "description": "Sortie immersive en montagne pour lire le paysage.",
+    "coverImage": {
+      "url": "/assets/images/placeholders/project-placeholder.svg",
+      "alt": "Randonnée découverte"
+    },
+    "principlesEnvironmental": [
+      {
+        "text": "Immersion en montagne : découverte directe de la faune/flore.",
+        "order": 1
+      },
+      {
+        "text": "Éducation au territoire : valorisation du patrimoine naturel pyrénéen.",
+        "order": 2
+      },
+      {
+        "text": "Sensibilisation au respect de l'environnement (déchets, sécurité).",
+        "order": 3
+      }
+    ],
+    "principlesPedagogical": [
+      {
+        "text": "Autonomie : conception complète du parcours.",
+        "order": 1
+      },
+      {
+        "text": "Expérience immersive : observation directe en montagne.",
+        "order": 2
+      },
+      {
+        "text": "Dynamique de groupe : cohésion et responsabilité.",
+        "order": 3
+      }
+    ],
+    "icon": "Map",
+    "category": "montagne",
+    "date": "2023-05"
+  }
+]

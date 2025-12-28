@@ -1,27 +1,45 @@
 {
-  "name": "portfolio-enzo",
+  "name": "enzo-bagneris---animateur-nature",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "typecheck": "tsc"
+    "docs:dev": "pnpm -C docs start",
+    "docs:build": "pnpm -C docs build",
+    "docs:api": "typedoc"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.1"
+    "@tanstack/react-query": "^5.90.12",
+    "@tanstack/react-query-devtools": "^5.91.1",
+    "clsx": "^2.1.1",
+    "dompurify": "^3.3.1",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "6.22.3",
+    "tailwind-merge": "^3.4.0",
+    "zod": "^4.2.1"
   },
   "devDependencies": {
-    "@types/react": "^18.3.23",
-    "@types/react-dom": "^18.3.7",
-    "@vitejs/plugin-react-swc": "^4.0.0",
-    "autoprefixer": "^10.4.21",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/dompurify": "^3.2.0",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.23",
+    "fontsource-lora": "^4.0.0",
+    "fontsource-playfair-display": "^4.0.0",
+    "fontsource-playfair-display-sc": "^4.0.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "3",
-    "typescript": "^5.9.2",
-    "vite": "^7.1.2"
+    "tailwindcss": "^4.1.18",
+    "typedoc": "^0.28.15",
+    "typedoc-plugin-markdown": "^4.9.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
   }
 }

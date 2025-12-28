@@ -1,0 +1,114 @@
+{
+  "profile": {
+    "name": "Enzo Bagneris",
+    "title": "Animateur Nature & Médiateur",
+    "subtitle": "Bonjour, je suis",
+    "intro": "\"Passionné, investi et pédagogue ; je souhaite mettre à profit mes compétences en animation et contribuer à la préservation de l'environnement et à la sensibilisation auprès de différents publics.\"",
+    "email": "contact@enzobagneris.fr",
+    "license": "PERMIS B",
+    "photo": {
+      "url": "/assets/images/placeholders/profile-placeholder.svg",
+      "alt": "Enzo Bagneris"
+    }
+  },
+  "skills": {
+    "environment": [
+      "Élaboration d'animations",
+      "Encadrement de groupes",
+      "Suivi scientifique (quadra)",
+      "Connaissance milieu montagnard"
+    ],
+    "techniques": [
+      "Tronçonneuse & débroussailleuse",
+      "Entretien espaces naturels",
+      "Aménagements paysagers"
+    ]
+  },
+  "softSkills": [
+    "Investi",
+    "Esprit d'équipe",
+    "Affable",
+    "Soigneux",
+    "Autonome",
+    "Créatif"
+  ],
+  "interests": [
+    {
+      "label": "Randonnée",
+      "icon": "Mountain"
+    },
+    {
+      "label": "Terrariums",
+      "icon": "Leaf"
+    },
+    {
+      "label": "Graphisme",
+      "icon": "Briefcase"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Agent Espaces verts - Ecocentre",
+      "date": "Mai - Juillet 2023",
+      "location": "Riscle",
+      "highlights": [
+        "Entretien et maintenance du site naturel.",
+        "Création de supports de sensibilisation au développement durable.",
+        "Projet en autonomie : conception et réalisation d'un hôtel à insectes."
+      ],
+      "link": {
+        "label": "Voir le projet \"Hôtel à insectes\" en détail",
+        "to": "/blog/hotel-insectes"
+      },
+      "variant": "featured"
+    },
+    {
+      "title": "Agent - Parc National des Pyrénées",
+      "date": "Juin-Juil 2022 / Janv 2020",
+      "location": "Luz-St-Sauveur",
+      "highlights": [
+        "Suivi scientifique de la faune et de la flore.",
+        "Sensibilisation et éducation à l'environnement.",
+        "Animation de visites guidées et ateliers pédagogiques.",
+        "Surveillance et préservation des habitats naturels."
+      ],
+      "variant": "standard"
+    },
+    {
+      "title": "Employé polyvalent",
+      "date": "2023 - 2025 (Missions)",
+      "location": "Point Vert (Lembeye / Lescar)",
+      "summary": "Entretien des plantes, conseil client, gestion des stocks et caisse.",
+      "variant": "muted"
+    }
+  ],
+  "education": [
+    {
+      "date": "Juin 2024 • LPA Oloron",
+      "title": "BAC professionnel GMNF",
+      "description": "Gestion des Milieux Naturels et de la Faune.",
+      "accent": "dark"
+    },
+    {
+      "date": "Juin 2024 • LPA Oloron",
+      "title": "Brevet initiateur montagnisme",
+      "description": "Formation d'encadrement de groupe en montagne.",
+      "accent": "soft"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Diplôme SST",
+      "description": "Sauveteur Secouriste au Travail (2023)"
+    },
+    {
+      "title": "SNU & MIG",
+      "description": "Service National Universel (2023)"
+    }
+  ],
+  "footerCta": {
+    "text": "Vous souhaitez en savoir plus sur ma démarche ?",
+    "label": "EXPLORER LE PORTFOLIO",
+    "to": "/portfolio"
+  }
+}
