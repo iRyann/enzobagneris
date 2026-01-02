@@ -1,5 +1,10 @@
 export { Button } from './Button/Button';
 export type { ButtonProps } from './Button/Button';
+export { SecureDownloadButton } from './Button/SecureDownloadButton';
+export type {
+  SecureDownloadButtonProps,
+  SecureDownloadConfig,
+} from './Button/SecureDownloadButton';
 export { Card } from './Card/Card';
 export type { CardProps } from './Card/Card';
 export { Section } from './Section/Section';

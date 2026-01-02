@@ -47,7 +47,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
         <Link
           to="/services"
           className={`inline-block px-8 py-3 rounded-full border-2 border-nature-dark font-display tracking-widest text-sm transition-all duration-300 hover:bg-nature-dark hover:text-nature-light ${
-            service.id === 'gestion' ? 'bg-nature-dark text-nature-light' : 'text-nature-dark'
+            service.id === 'rse' ? 'bg-nature-dark text-nature-light' : 'text-nature-dark'
           }`}
         >
           {(service.ctaText || '').toUpperCase()}
