@@ -1,13 +1,13 @@
 {
   "profile": {
     "name": "Enzo Bagneris",
-    "title": "Animateur Nature & Médiateur",
+    "title": "Animateur Nature & Médiateur Scientifique",
     "subtitle": "Bonjour, je suis",
     "intro": "\"Passionné, investi et pédagogue ; je souhaite mettre à profit mes compétences en animation et contribuer à la préservation de l'environnement et à la sensibilisation auprès de différents publics.\"",
     "email": "contact@enzobagneris.fr",
     "license": "PERMIS B",
     "photo": {
-      "url": "/assets/images/placeholders/profile-placeholder.svg",
+      "url": "/assets/images/presentation/home/profile.jpeg",
       "alt": "Enzo Bagneris"
     }
   },
@@ -21,7 +21,7 @@
     "techniques": [
       "Tronçonneuse & débroussailleuse",
       "Entretien espaces naturels",
-      "Aménagements paysagers"
+      "Aménagements pour la faune et la flore"
     ]
   },
   "softSkills": [
@@ -48,13 +48,13 @@
   ],
   "experience": [
     {
-      "title": "Agent Espaces verts - Ecocentre",
+      "title": "Agent Espaces verts & Animateur nature",
       "date": "Mai - Juillet 2023",
-      "location": "Riscle",
+      "location": "Écocentre Pierre & Terre - Riscle",
       "highlights": [
         "Entretien et maintenance du site naturel.",
         "Création de supports de sensibilisation au développement durable.",
-        "Projet en autonomie : conception et réalisation d'un hôtel à insectes."
+        "Projet en autonomie : rénovation d'un hôtel à insectes."
       ],
       "link": {
         "label": "Voir le projet \"Hôtel à insectes\" en détail",
@@ -77,7 +77,7 @@
     {
       "title": "Employé polyvalent",
       "date": "2023 - 2025 (Missions)",
-      "location": "Point Vert (Lembeye / Lescar)",
+      "location": "Point Vert - (Lembeye / Lescar)",
       "summary": "Entretien des plantes, conseil client, gestion des stocks et caisse.",
       "variant": "muted"
     }

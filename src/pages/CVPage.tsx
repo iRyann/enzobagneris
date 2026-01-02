@@ -3,7 +3,6 @@ import {
   Briefcase,
   Calendar,
   CheckCircle,
-  Download,
   GraduationCap,
   Heart,
   Leaf,
@@ -15,6 +14,15 @@ import {
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import cvData from '@/data/cv.json';
+import { SecureDownloadButton } from '@/components/ui';
+
+const CV_DOWNLOAD = {
+  path: `${import.meta.env.BASE_URL}assets/cv/Enzo-Bagneris-CV.pdf`,
+  fileName: 'Enzo-Bagneris-CV.pdf',
+  mimeType: 'application/pdf',
+  maxBytes: 5 * 1024 * 1024,
+  timeoutMs: 15000,
+};
 
 /**
  * Page CV detaillee.
@@ -85,9 +93,14 @@ function CvHeader() {
             <span className="px-6 py-2 border border-nature-dark/20 rounded-full font-display text-sm tracking-wide bg-nature-light">
               {profile.license}
             </span>
-            <button className="flex items-center gap-2 px-6 py-2 bg-nature-accent text-nature-light rounded-full hover:bg-nature-dark transition-colors font-display text-sm tracking-wide shadow-lg">
-              <Download size={16} /> TÉLÉCHARGER LE CV
-            </button>
+            <SecureDownloadButton
+              download={CV_DOWNLOAD}
+              label="TÉLÉCHARGER LE CV"
+              loadingLabel="TÉLÉCHARGEMENT..."
+              variant="secondary"
+              size="sm"
+              className="px-6 py-2 text-sm rounded-full shadow-lg"
+            />
           </div>
         </div>
       </div>
