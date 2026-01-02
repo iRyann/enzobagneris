@@ -11,11 +11,11 @@ export const siteConfig = {
     name: "Enzo Bagneris",
     email: "contact@enzobagneris.fr",
     phone: "+33 7 69 64 14 81",
-    phoneCompact : "0769641481",
+    phoneCompact: "0769641481",
   },
   social: {
-    instagram: "https://instagram.com/enzobagneris",
-    linkedin: "https://linkedin.com/in/enzobagneris",
+    instagram: "https://instagram.com/enphotto",
+    linkedin: "https://linkedin.com/in/enzo-bagneris",
   },
   location: "Pyrénées, France",
 } as const;
