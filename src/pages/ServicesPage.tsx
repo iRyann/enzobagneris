@@ -11,11 +11,37 @@ import {
   Users,
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 /**
  * Page des services detaillee.
  */
 export function ServicesPage() {
+  useEffect(() => {
+    const existing = document.querySelector('meta[name="robots"]');
+    const meta = existing || document.createElement('meta');
+    const previousContent = existing?.getAttribute('content') || null;
+
+    meta.setAttribute('name', 'robots');
+    meta.setAttribute('content', 'noindex, nofollow');
+
+    if (!existing) {
+      document.head.appendChild(meta);
+    }
+
+    return () => {
+      if (existing) {
+        if (previousContent) {
+          existing.setAttribute('content', previousContent);
+        } else {
+          existing.remove();
+        }
+      } else {
+        meta.remove();
+      }
+    };
+  }, []);
+
   return (
     <div className="bg-nature-light min-h-screen pt-24 pb-20 animate-in fade-in duration-700">
       <ServicesIntro />
