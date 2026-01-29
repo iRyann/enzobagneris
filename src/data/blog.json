@@ -2,19 +2,15 @@
   {
     "id": "classe-decouverte",
     "slug": "classe-decouverte",
-    "title": "Classe découverte en montagne : L'éveil des sens",
-    "subtitle": "Retour sur une semaine d'immersion avec les 3-6 ans.",
-    "excerpt": "Retour sur une semaine d'immersion avec les 3-6 ans en montagne.",
-    "content": "<p>L'organisation d'une classe découverte pour des maternelles (3-6 ans) représente un défi unique : comment rendre la montagne accessible, sécurisante et passionnante pour des tout-petits ?</p>\n\n<h3>1. L'approche sensorielle avant tout</h3>\n<p>À cet âge, l'intellectualisation est secondaire. Nous avons axé le séjour sur le toucher, l'écoute et la vue. La découverte des rapaces ne s'est pas faite par des fiches techniques, mais par l'observation aux jumelles (adaptées) et la manipulation de plumes.</p>\n\n<h3>2. Le jeu comme vecteur d'apprentissage</h3>\n<p>Pour expliquer la chaîne alimentaire, nous avons utilisé des puzzles géants fabriqués sur mesure. Chaque enfant repart avec une pièce du puzzle, symbolisant son appartenance à cet écosystème.</p>\n\n<h3>Bilan</h3>\n<p>Les enfants ont montré une capacité d'attention surprenante dès lors qu'ils étaient acteurs de leur découverte. Une expérience à renouveler au printemps prochain !</p>",
+    "title": "Classe découverte en montagne",
+    "subtitle": "Concevoir et animer une activité nature en GMNF.",
+    "excerpt": "Concevoir et animer une activité nature en GMNF.",
+    "content": "<p>Chaque année, en terminale GMNF au Lycée des Métiers de la Montagne de Soeix, un exercice important nous est proposé : concevoir et animer une activité nature, de A à Z. Le cadre est donné, mais tout le reste nous appartient — le lieu, le public, l'âge, l'organisation des groupes et le contenu de l'animation.</p>\n\n<p>Pour ce projet, notre classe a fait le choix de travailler collectivement. Trente apprentis animateurs, des idées nombreuses, des envies différentes : il a fallu apprendre à s'écouter, à débattre et à construire ensemble une journée cohérente. Ce travail de groupe a été la première étape essentielle de la réussite de l'animation.</p>\n\n<p>Le public choisi a rapidement posé de nouveaux défis : une classe de l'école d'Escou. Un public jeune, qui ne sait pas encore lire, qui se fatigue vite, et dont l'attention est souvent fluctuante. Loin d'être un frein, ces contraintes ont été une véritable source de créativité. Il a fallu adapter notre langage, simplifier nos messages, repenser entièrement notre manière de transmettre.</p>\n\n<p>Avec mon équipe, nous avons choisi de travailler sur le thème des rapaces diurnes, afin de faire découvrir aux enfants ces oiseaux emblématiques des montagnes pyrénéennes. L'animation a été construite en plusieurs temps : une courte phase explicative, des moments participatifs et des séquences ludiques. L'objectif était clair : faire manipuler, faire jouer, faire expérimenter — car à cet âge, on retient en pratiquant bien plus qu'en écoutant.</p>\n\n<p>Même si aucune observation de rapaces n'a été possible ce jour-là, notre préparation nous a permis de maintenir l'intérêt des enfants sans difficulté. Une météo favorable et un cadre adapté ont largement contribué au bon déroulement de la journée.</p>\n\n<p>Pour conclure l'animation, nous avons imaginé un mini puzzle représentant les rapaces étudiés — le Vautour fauve, le Gypaète barbu, l'Aigle royal et le Vautour percnoptère. Chaque enfant est reparti avec son oiseau reconstitué, un souvenir concret de la journée. Une attention simple, mais qui a rencontré un vrai succès.</p>\n\n<p>Un dernier défi s'est ajouté à l'organisation : la gestion du temps. Afin de permettre la rotation des groupes, les enfants ont été répartis en petits groupes de quatre à cinq, et chaque atelier devait durer quinze minutes maximum. Une contrainte forte, mais extrêmement formatrice.</p>\n\n<p>Cette journée a été riche d'enseignements. Elle nous a appris à gérer le temps, à adapter notre posture d'animateur, à travailler en équipe, et surtout à comprendre que même un très jeune public peut apporter énormément en retour. Une expérience aussi enrichissante pour les enfants que pour nous, futurs animateurs.</p>\n\n<p><strong>Date :</strong> Avril 2024</p>",
     "category": "Pédagogie",
-    "tags": [
-      "Scolaire",
-      "Montagne",
-      "Faune"
-    ],
-    "publishedAt": "12 Octobre 2023",
+    "tags": ["Scolaire", "Montagne", "Faune"],
+    "publishedAt": "Avril 2024",
     "coverImage": {
-      "url": "/assets/images/placeholders/blog-placeholder.svg",
+      "url": "/assets/images/blog/observationRapaces.jpg",
       "alt": "Enfants en classe découverte observant la nature"
     },
     "featured": true
@@ -22,19 +18,15 @@
   {
     "id": "phyt-abeilles",
     "slug": "phyt-abeilles",
-    "title": "Atelier Phyt'Abeilles : La rigueur scientifique à l'école",
-    "subtitle": "Initier les élèves aux protocoles de sciences participatives.",
-    "excerpt": "Initier les élèves aux protocoles de sciences participatives.",
-    "content": "<p>Comment transformer un cours de biologie en véritable enquête de terrain ? L'atelier Phyt'Abeilles a pour but de recenser les interactions plantes-pollinisateurs.</p>\n\n<h3>Le Protocole</h3>\n<p>Les étudiants ont dû respecter un protocole strict : observation sur 20 minutes, transect défini, capture photographique. Cette rigueur est essentielle pour que les données soient exploitables par les chercheurs.</p>\n\n<h3>Outils d'identification</h3>\n<p>Nous avons utilisé des clés de détermination simplifiées mais précises, permettant de distinguer les principales familles d'hyménoptères sauvages. La loupe binoculaire a révélé des détails invisibles à l'œil nu, suscitant l'émerveillement.</p>",
+    "title": "Atelier Phyt'Abeille",
+    "subtitle": "Un atelier scientifique pour comprendre la diversité des abeilles.",
+    "excerpt": "Un atelier scientifique pour comprendre la diversité des abeilles.",
+    "content": "<p>Animer un atelier scientifique en seulement vingt minutes, et s'adresser à des élèves allant du CM1 au BTS… ça peut sembler audacieux.</p>\n\n<p>Et pourtant, le défi a été relevé.</p>\n\n<p>Lors de la journée agroécologique organisée par l'AgroCampus 64, mes collègues et moi avons tenu un stand d'animation scientifique dédié aux abeilles et à leur incroyable diversité.</p>\n\n<p>Au programme : trois ateliers d'observation, à la loupe ou à l'œil nu, permettant d'identifier différentes espèces d'abeilles locales à partir de leurs caractéristiques physiques — antennes, ailes, couleurs, morphologie. Un exercice simple en apparence, mais qui ouvre rapidement les yeux sur la complexité du vivant.</p>\n\n<p>En parallèle, nous avons présenté le protocole Phyt'Abeille, une démarche scientifique appliquée et enseignée au Lycée des Métiers de la Montagne de Soeix, auprès des élèves de GMNF. L'objectif : montrer que l'observation de terrain peut devenir un véritable outil pédagogique et scientifique, accessible à tous.</p>\n\n<p>Cette animation a permis de faire découvrir, à des classes de primaire, de lycée et de BTS, des insectes que l'on pense connaître… mais dont la diversité est souvent insoupçonnée.</p>\n\n<p>Les abeilles comptent en effet plus de 1 000 espèces en France métropolitaine. Parmi elles, la plus connue reste Apis mellifera, l'abeille domestique, productrice de miel et précieuse alliée des apiculteurs — mais elle est loin d'être la seule à jouer un rôle essentiel.</p>\n\n<p>À travers ce stand, l'enjeu était double : présenter un aperçu des enseignements dispensés au lycée, tout en vulgarisant l'aspect scientifique et protocolaire de notre travail. L'objectif était que chacun, quel que soit son âge ou son parcours, puisse comprendre, observer et s'approprier ces notions.</p>\n\n<p>Mais au-delà des connaissances transmises, un autre enjeu s'est imposé naturellement : éveiller la curiosité et la conscience de la biodiversité qui nous entoure. Voir les regards s'illuminer, les questions émerger, l'étonnement laisser place à l'émerveillement… c'est cette transmission-là qui donne tout son sens à notre métier d'animateur.</p>\n\n<p><strong>Date :</strong> Avril 2024</p>",
     "category": "Science",
-    "tags": [
-      "Insectes",
-      "Protocole",
-      "BTS"
-    ],
-    "publishedAt": "28 Septembre 2023",
+    "tags": ["Insectes", "Protocole", "BTS"],
+    "publishedAt": "Avril 2024",
     "coverImage": {
-      "url": "/assets/images/placeholders/blog-placeholder.svg",
+      "url": "/assets/images/blog/abeille.jpg",
       "alt": "Atelier Phyt'Abeilles"
     },
     "featured": false
@@ -42,19 +34,15 @@
   {
     "id": "hotel-insectes",
     "slug": "hotel-insectes",
-    "title": "Rénovation d'un Hôtel à insectes",
-    "subtitle": "Chantier participatif et sensibilisation.",
-    "excerpt": "Chantier participatif et sensibilisation.",
-    "content": "<p>Un hôtel à insectes à l'abandon n'est pas seulement inutile, il peut devenir un piège écologique (parasites, humidité). Avec une classe de 5ème, nous avons entrepris sa rénovation complète.</p>\n\n<h3>Choix des matériaux</h3>\n<p>Nous avons remplacé les briques creuses (souvent inutilisées) par des tiges de sureau et de bambou, beaucoup plus prisées par les osmies. La paille a été changée pour offrir un abri sec aux chrysopes.</p>\n\n<h3>Pédagogie du \"faire\"</h3>\n<p>Au-delà de l'aspect manuel, ce chantier a permis d'aborder le cycle de vie des auxiliaires du jardin et l'importance de ne pas utiliser de pesticides à proximité.</p>",
+    "title": "Hôtel à insectes",
+    "subtitle": "Redonner vie à un refuge discret du jardin.",
+    "excerpt": "Redonner vie à un refuge discret du jardin.",
+    "content": "<p>Invisible pour beaucoup, l'hôtel à insectes est pourtant un véritable refuge. À l'écocentre Pierre et Terre, l'un d'eux avait traversé les années… jusqu'à ne plus remplir sa mission. Fatigué par le temps, presque déserté, il attendait simplement qu'on s'intéresse de nouveau à lui.</p>\n\n<p>C'est de cette observation qu'est née l'envie de lui redonner vie. Plutôt que de repartir de zéro, j'ai choisi de comprendre. Comprendre à quoi sert réellement un hôtel à insectes, à qui il s'adresse, et surtout comment le rendre de nouveau accueillant. J'ai alors consacré une partie de mon temps à observer, étudier et apprendre le fonctionnement de ces habitats un peu particuliers.</p>\n\n<p>J'ai découvert que l'hôtel était composé de plusieurs modules, que l'on pourrait comparer à des chambres. Chaque espace, chaque matériau, chaque agencement répond à des besoins bien précis : ici pour un insecte solitaire, là pour un autre. On réalise alors que le terme hôtel à insectes n'est pas qu'une image : il décrit très justement sa fonction.</p>\n\n<p>En étudiant l'ancien hôtel, certaines traces de présence confirmaient qu'il avait autrefois été habité. Il n'avait donc pas été construit en vain. Après m'être assuré de l'absence totale d'insectes, j'ai vidé l'ancienne structure et récupéré tout ce qui pouvait l'être.</p>\n\n<p>Un enjeu s'est rapidement imposé : l'éco-responsabilité. Sur un site comme l'écocentre Pierre et Terre, cela allait de soi. La reconstruction s'est donc faite uniquement à partir de matériaux naturels présents sur place — paille, branches, terre — ou de matériaux de récupération comme des tuiles et des pots en terre cuite cassés.</p>\n\n<p>Module par module, l'hôtel a repris forme.</p>\n\n<p>À la fin du stage, le nouvel hôtel était debout. Ce qui devait être une simple rénovation est devenu un véritable apprentissage d'un monde que je connaissais à peine : celui des hyménoptères, ces insectes discrets du jardin, souvent invisibles, mais essentiels.</p>\n\n<p>En apprenant à mieux les connaître, on comprend vite qu'en leur offrant un habitat adapté, ils nous rendent bien plus que ce qu'on leur apporte.</p>\n\n<p><strong>Date :</strong> Mai 2023</p>",
     "category": "Chantier Nature",
-    "tags": [
-      "Biodiversité",
-      "Bricolage",
-      "Collège"
-    ],
-    "publishedAt": "15 Juin 2023",
+    "tags": ["Biodiversité", "Bricolage", "Collège"],
+    "publishedAt": "Mai 2023",
     "coverImage": {
-      "url": "/assets/images/placeholders/blog-placeholder.svg",
+      "url": "/assets/images/blog/hotelInsectes.png",
       "alt": "Rénovation d'un hôtel à insectes"
     },
     "featured": false
@@ -62,19 +50,15 @@
   {
     "id": "randonnee-decouverte",
     "slug": "randonnee-decouverte",
-    "title": "Randonnée : Lire le paysage pyrénéen",
-    "subtitle": "Sortie géologie et flore avec les lycéens.",
-    "excerpt": "Sortie géologie et flore avec les lycéens.",
-    "content": "<p>La montagne est un livre ouvert pour qui sait la lire. Lors de cette sortie avec des lycéens, nous avons appris à décrypter l'histoire géologique des Pyrénées.</p>\n\n<h3>Lecture de paysage</h3>\n<p>Identifier les étages de végétation, comprendre l'érosion glaciaire, repérer les zones de pastoralisme... L'objectif était de donner aux élèves les clés pour comprendre leur environnement.</p>\n\n<h3>Sécurité et Autonomie</h3>\n<p>Une partie de la randonnée a été consacrée à l'orientation : lecture de carte IGN 1/25000 et utilisation de la boussole. Des compétences essentielles pour tout montagnard.</p>",
+    "title": "Randonnée découverte",
+    "subtitle": "Transmettre par l'expérience sur le terrain.",
+    "excerpt": "Transmettre par l'expérience sur le terrain.",
+    "content": "<p>Revenir là où tout a commencé, mais cette fois pour transmettre à son tour : c'est dans cet esprit que j'ai proposé une sortie en montagne auprès de l'association Diapason de Lembeye.</p>\n\n<p>Une semaine pour imaginer et organiser une sortie en montagne avec des collégiens : le défi s'est présenté lors de mon passage à Diapason, dans le cadre de la deuxième phase du Service National Universel.</p>\n\n<p>Pour ce temps d'engagement, j'ai choisi de revenir vers une structure que je connais bien et qui m'est chère. Le CLAS (Contrat Local d'Accompagnement à la Scolarité) accompagne les collégiens du collège du Vic-Bilh à travers un dispositif d'aide aux devoirs, mais aussi par des projets collectifs, des sorties culturelles et des activités de découverte. Un cadre que j'ai moi-même connu en tant qu'élève, et qui m'a beaucoup apporté durant ma scolarité. Revenir aujourd'hui pour y proposer une activité était à la fois une chance et un véritable privilège.</p>\n\n<p>J'ai eu carte blanche sur l'animation à proposer. Le choix a été évident : une sortie en montagne.</p>\n\n<p>Les objectifs étaient multiples : initier les élèves à la randonnée, leur faire découvrir le milieu montagnard, et leur apprendre à observer la faune et la flore dans leur environnement naturel. Après des recherches et une préparation en amont, j'ai conçu un itinéraire à la journée, adapté à un public débutant mais curieux, avec des temps de marche accessibles et des pauses pensées pour l'animation.</p>\n\n<p>J'ai préparé des supports pédagogiques, anticipé les observations possibles, et imaginé des moments clés pour transmettre, expliquer et échanger. Malgré cette préparation, les doutes étaient bien présents : peur d'en faire trop, ou pas assez ; que ce soit trop dense, ou au contraire pas suffisamment captivant. Pour une première animation entièrement conçue seul, l'incertitude faisait partie du parcours.</p>\n\n<p>Le jour J, le groupe était composé de dix élèves, accompagnés par une membre du CLAS, ainsi que par la mère de l'un des élèves, curieuse et intéressée par l'activité. Dès les premiers pas, la bienveillance du groupe m'a mis en confiance.</p>\n\n<p>La randonnée, menée dans le secteur de Gavarnie qui m'est familier, s'est déroulée dans des conditions idéales. Au fil de la journée, les élèves se sont pleinement pris au jeu : questions, observations, enthousiasme croissant. La montagne a fait le reste. Nous avons eu la chance d'observer plusieurs espèces de faune sauvage — isards, marmottes, vautours — rendant l'expérience encore plus marquante.</p>\n\n<p>Ajoutée à une météo parfaite, cette journée a été pour moi un véritable soulagement, mais surtout une confirmation : transmettre par l'expérience, sur le terrain, dans un cadre naturel, est une approche qui a du sens. Pour eux comme pour moi.</p>\n\n<p><strong>Date :</strong> Avril 2023</p>",
     "category": "Montagne",
-    "tags": [
-      "Randonnée",
-      "Géologie",
-      "Lycée"
-    ],
-    "publishedAt": "05 Mai 2023",
+    "tags": ["Randonnée", "Géologie", "Lycée"],
+    "publishedAt": "Avril 2023",
     "coverImage": {
-      "url": "/assets/images/placeholders/blog-placeholder.svg",
+      "url": "/assets/images/blog/service-randonnée.jpeg",
       "alt": "Randonnée dans les Pyrénées"
     },
     "featured": false
