@@ -4,7 +4,15 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { MemoryRouter, Route, Routes, useLocation } from 'react-router-dom';
 import { PageLayout } from '@/components/layout';
 import { queryClient } from '@/lib/queryClient';
-import { BlogPage, BlogPostPage, CVPage, HomePage, PortfolioPage, ServicesPage } from '@/pages';
+import {
+  ActivitiesCatalogPage,
+  BlogPage,
+  BlogPostPage,
+  CVPage,
+  HomePage,
+  PortfolioPage,
+  ServicesPage,
+} from '@/pages';
 
 /**
  * Gère le defilement automatique vers les ancres (#contact, etc.).
@@ -41,7 +49,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
-            <Route path="/services" element={<ServicesPage />} />
+            <Route path="/services" element={<ActivitiesCatalogPage />} />
+            <Route path="/services-prestations" element={<ServicesPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/:slug" element={<BlogPostPage />} />
             <Route path="/about" element={<CVPage />} />
