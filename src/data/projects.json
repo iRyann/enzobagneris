@@ -7,30 +7,34 @@
     "target": "Scolaire (3 à 6 ans)",
     "description": "Programme immersif en montagne pour les 3-6 ans.",
     "coverImage": {
-      "url": "/assets/images/placeholders/project-placeholder.svg",
+      "url": "/assets/images/blog/observationRapaces.jpg",
       "alt": "Classe découverte en montagne"
     },
     "principlesEnvironmental": [
       {
-        "text": "Découverte de la montagne pyrénéenne : sensibilisation aux milieux locaux.",
+        "text": "Immersion en montagne : découverte directe de la montagne, de sa faune et de sa flore.",
         "order": 1
       },
       {
-        "text": "Biodiversité : initiation aux rapaces diurnes (espèces emblématiques).",
+        "text": "Éducation au territoire : valorisation du patrimoine naturel pyrénéen.",
         "order": 2
+      },
+      {
+        "text": "Sensibilisation au respect de l'environnement : comportements responsables en randonnée (déchets, sécurité, respect de la faune).",
+        "order": 3
       }
     ],
     "principlesPedagogical": [
       {
-        "text": "Approche ludique : puzzles, énigmes, supports visuels adaptés aux non-lecteurs.",
+        "text": "Autonomie : conception complète de l'atelier, du parcours à l'animation.",
         "order": 1
       },
       {
-        "text": "Pédagogie active : manipulation d'objets concrets.",
+        "text": "Expérience immersive : observation directe en montagne et échanges avec les collégiens pendant la randonnée.",
         "order": 2
       },
       {
-        "text": "Souvenir concret : le puzzle emporté par les enfants.",
+        "text": "Dynamique de groupe, sécurité et encadrement : cohésion, gestion d'un groupe de jeunes en extérieur et responsabilité liée à l'activité (avec présence d'un adulte référent).",
         "order": 3
       }
     ],
@@ -41,36 +45,40 @@
   {
     "id": "phyt-abeilles",
     "slug": "phyt-abeilles",
-    "title": "Atelier Phyt'Abeilles",
+    "title": "Atelier Phyt'Abeille",
     "subtitle": "Déterminations, identification et protocole",
     "target": "Primaire à BTS",
     "description": "Atelier scientifique autour des pollinisateurs et des protocoles.",
     "coverImage": {
-      "url": "/assets/images/placeholders/project-placeholder.svg",
-      "alt": "Atelier Phyt'Abeilles"
+      "url": "/assets/images/blog/abeille.jpg",
+      "alt": "Atelier Phyt'Abeille"
     },
     "principlesEnvironmental": [
       {
-        "text": "Biodiversité et pollinisation : importance écologique des abeilles sauvages.",
+        "text": "Biodiversité et pollinisation : sensibilisation à la diversité des abeilles sauvages, importance écologique des abeilles dans le maintien des écosystèmes.",
         "order": 1
       },
       {
-        "text": "Science participative : implication dans un protocole scientifique reconnu.",
+        "text": "Science participative : implication d'un public varié dans un protocole scientifique reconnu (Phyt'Abeille).",
         "order": 2
       }
     ],
     "principlesPedagogical": [
       {
-        "text": "Découverte active : ateliers pratiques au microscope.",
+        "text": "Découverte active : ateliers pratiques au microscope, manipulation et observation.",
         "order": 1
       },
       {
-        "text": "Curiosité et ludique : démarche scientifique transformée en expérience captivante.",
+        "text": "Adaptabilité : animation modulable selon l'âge (du primaire au BTS).",
         "order": 2
       },
       {
-        "text": "Adaptabilité : animation modulable selon l'âge.",
+        "text": "Interaction : questions-réponses, échanges autour des observations.",
         "order": 3
+      },
+      {
+        "text": "Curiosité et ludique : démarche scientifique transformée en expérience captivante avec émerveillement devant l'invisible à l'œil nu.",
+        "order": 4
       }
     ],
     "icon": "Microscope",
@@ -80,40 +88,36 @@
   {
     "id": "hotel-insectes",
     "slug": "hotel-insectes",
-    "title": "Rénovation d'un Hôtel à insectes",
+    "title": "Hôtel à insectes",
     "subtitle": "Un foyer pour la vie des plus petits",
     "target": "Collégiens / Grand Public",
     "description": "Chantier participatif pour créer des habitats adaptés aux auxiliaires.",
     "coverImage": {
-      "url": "/assets/images/placeholders/project-placeholder.svg",
-      "alt": "Rénovation d'un hôtel à insectes"
+      "url": "/assets/images/blog/hotelInsectes.png",
+      "alt": "Hôtel à insectes"
     },
     "principlesEnvironmental": [
       {
-        "text": "Préservation de la biodiversité : création d'habitats pour les auxiliaires.",
+        "text": "Préservation de la biodiversité : création d'un hôtel pour les insectes auxiliaires (pollinisateurs, régulateurs naturels).",
         "order": 1
       },
       {
-        "text": "Approche écologique : utilisation de matériaux de récupération et locaux.",
+        "text": "Approche écologique : utilisation de matériaux de récupération et locaux, valorisation de ressources existantes et réduction des déchets (pots en terre, tuiles, branches, terre...).",
         "order": 2
       },
       {
-        "text": "Lien avec la sensibilisation : support pédagogique durable.",
+        "text": "Lien avec la sensibilisation : un hôtel à insectes comme support pédagogique pour faire découvrir l'importance des insectes dans les écosystèmes.",
         "order": 3
       }
     ],
     "principlesPedagogical": [
       {
-        "text": "Potentiel pédagogique : support pour sensibiliser aux cycles de vie.",
+        "text": "Potentiel pédagogique : l'hôtel peut servir de support pour sensibiliser différents publics aux insectes et à la biodiversité.",
         "order": 1
       },
       {
-        "text": "Expérience tiers : participation à une animation de groupe.",
+        "text": "Expérience tiers : participation à une animation avec des collégiens (réalisation d'un hôtel en groupe) sur un autre site.",
         "order": 2
-      },
-      {
-        "text": "Travail manuel et valorisation des ressources.",
-        "order": 3
       }
     ],
     "icon": "Hammer",
@@ -128,12 +132,12 @@
     "target": "Collège (4ème/3ème) & Lycée",
     "description": "Sortie immersive en montagne pour lire le paysage.",
     "coverImage": {
-      "url": "/assets/images/placeholders/project-placeholder.svg",
+      "url": "/assets/images/blog/service-randonnée.jpeg",
       "alt": "Randonnée découverte"
     },
     "principlesEnvironmental": [
       {
-        "text": "Immersion en montagne : découverte directe de la faune/flore.",
+        "text": "Immersion en montagne : découverte directe de la montagne, de sa faune et de sa flore.",
         "order": 1
       },
       {
@@ -141,21 +145,21 @@
         "order": 2
       },
       {
-        "text": "Sensibilisation au respect de l'environnement (déchets, sécurité).",
+        "text": "Sensibilisation au respect de l'environnement : comportements responsables en randonnée (déchets, sécurité, respect de la faune).",
         "order": 3
       }
     ],
     "principlesPedagogical": [
       {
-        "text": "Autonomie : conception complète du parcours.",
+        "text": "Autonomie : conception complète de l'atelier, du parcours à l'animation.",
         "order": 1
       },
       {
-        "text": "Expérience immersive : observation directe en montagne.",
+        "text": "Expérience immersive : observation directe en montagne et échanges avec les collégiens pendant la randonnée.",
         "order": 2
       },
       {
-        "text": "Dynamique de groupe : cohésion et responsabilité.",
+        "text": "Dynamique de groupe, sécurité et encadrement : cohésion, gestion d'un groupe de jeunes en extérieur et responsabilité liée à l'activité (avec présence d'un adulte référent).",
         "order": 3
       }
     ],

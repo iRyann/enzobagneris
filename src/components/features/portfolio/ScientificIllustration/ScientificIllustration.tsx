@@ -1,4 +1,4 @@
-import { Eye, FileSearch, PenTool } from 'lucide-react';
+import { Eye, FileSearch, PenTool } from "lucide-react";
 
 /**
  * Section d'illustration scientifique.
@@ -18,9 +18,10 @@ export function ScientificIllustration() {
               </h2>
               <div className="h-1 w-24 bg-nature-accent mb-6"></div>
               <p className="font-serif text-nature-light/80 text-lg leading-relaxed">
-                Au-delà de l'animation, je conçois mes propres supports pédagogiques. Mon expertise
-                me permet de traduire des concepts scientifiques complexes en supports visuels
-                attrayants et rigoureux.
+                Au-delà de l'animation, je conçois mes propres supports
+                pédagogiques. Mon expertise me permet de traduire des concepts
+                scientifiques complexes en supports visuels attrayants et
+                rigoureux.
               </p>
             </div>
 
@@ -28,29 +29,36 @@ export function ScientificIllustration() {
               <div className="flex gap-4">
                 <PenTool className="text-nature-accent w-6 h-6 flex-shrink-0" />
                 <div>
-                  <h3 className="font-bold font-display text-lg">Conception sur mesure</h3>
+                  <h3 className="font-bold font-display text-lg">
+                    Conception sur mesure
+                  </h3>
                   <p className="text-sm text-nature-light/60">
-                    Création de fiches espèces, posters éducatifs et livrets pédagogiques adaptés au
-                    public cible.
+                    Création de fiches espèces, posters éducatifs et livrets
+                    pédagogiques adaptés au public cible.
                   </p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <FileSearch className="text-nature-accent w-6 h-6 flex-shrink-0" />
                 <div>
-                  <h3 className="font-bold font-display text-lg">Rigueur Scientifique</h3>
+                  <h3 className="font-bold font-display text-lg">
+                    Rigueur Scientifique
+                  </h3>
                   <p className="text-sm text-nature-light/60">
-                    Validation des critères d'identification (ex: Milvus milvus vs Milvus migrans)
-                    et exactitude biologique.
+                    Validation des critères d'identification (ex: Milvus milvus
+                    vs Milvus migrans) et exactitude biologique.
                   </p>
                 </div>
               </div>
               <div className="flex gap-4">
                 <Eye className="text-nature-accent w-6 h-6 flex-shrink-0" />
                 <div>
-                  <h3 className="font-bold font-display text-lg">Impact Visuel</h3>
+                  <h3 className="font-bold font-display text-lg">
+                    Impact Visuel
+                  </h3>
                   <p className="text-sm text-nature-light/60">
-                    Mise en page soignée pour capter l'attention et faciliter la mémorisation.
+                    Mise en page soignée pour capter l'attention et faciliter la
+                    mémorisation.
                   </p>
                 </div>
               </div>
@@ -67,7 +75,7 @@ export function ScientificIllustration() {
 
               <div className="relative bg-[#EAE5D9] p-2 md:p-4 rounded-sm transform rotate-1 transition-transform duration-500 group-hover:rotate-0 shadow-2xl">
                 <img
-                  src="/assets/images/placeholders/illustration-placeholder.svg"
+                  src="/assets/images/portfolio/ficheEspeceModel.png"
                   alt="Fiche Espèce Milan Royal - Conception Graphique Enzo Bagneris"
                   className="w-full max-w-lg h-auto object-cover border border-nature-dark/10"
                 />
