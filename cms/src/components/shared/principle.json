@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_principles",
+  "info": {
+    "displayName": "Principle",
+    "icon": "check-circle",
+    "description": "Principe pédagogique ou environnemental"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "order": {
+      "type": "integer"
+    }
+  }
+}

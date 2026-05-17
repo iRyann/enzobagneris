@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_items",
+  "info": {
+    "singularName": "service-item",
+    "pluralName": "service-items",
+    "displayName": "Service Item",
+    "description": "Services proposés"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-asset"
+    },
+    "ctaText": {
+      "type": "string"
+    },
+    "reverseLayout": {
+      "type": "boolean",
+      "default": false
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

@@ -1,5 +1,11 @@
 import { useQuery } from '@tanstack/react-query';
 import { blogService } from '@/services/api';
+import {
+  isStrapiConfigured,
+  fetchBlogPosts,
+  fetchBlogPostBySlug,
+  fetchFeaturedBlogPosts,
+} from '@/lib/strapi';
 import type { BlogPost } from '@/types';
 
 export const blogKeys = {
@@ -13,9 +19,9 @@ export const blogKeys = {
 export function useBlogPostsQuery() {
   return useQuery({
     queryKey: blogKeys.lists(),
-    queryFn: () => blogService.getAll(),
+    queryFn: isStrapiConfigured ? fetchBlogPosts : () => blogService.getAll(),
     select: (data: BlogPost[]) =>
-      data.sort(
+      [...data].sort(
         (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
       ),
   });
@@ -24,7 +30,9 @@ export function useBlogPostsQuery() {
 export function useBlogPostQuery(slug: string | undefined) {
   return useQuery({
     queryKey: blogKeys.detail(slug || ''),
-    queryFn: () => blogService.getBySlug(slug || ''),
+    queryFn: isStrapiConfigured
+      ? () => fetchBlogPostBySlug(slug || '')
+      : () => blogService.getBySlug(slug || ''),
     enabled: !!slug,
   });
 }
@@ -32,6 +40,6 @@ export function useBlogPostQuery(slug: string | undefined) {
 export function useFeaturedBlogPostsQuery() {
   return useQuery({
     queryKey: [...blogKeys.lists(), 'featured'],
-    queryFn: () => blogService.getFeatured(),
+    queryFn: isStrapiConfigured ? fetchFeaturedBlogPosts : () => blogService.getFeatured(),
   });
 }

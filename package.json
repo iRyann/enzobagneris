@@ -9,7 +9,10 @@
     "preview": "vite preview",
     "docs:dev": "pnpm -C docs start",
     "docs:build": "pnpm -C docs build",
-    "docs:api": "typedoc"
+    "docs:api": "typedoc",
+    "cms:dev": "pnpm -C cms develop",
+    "cms:build": "pnpm -C cms build",
+    "cms:start": "pnpm -C cms start"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.12",

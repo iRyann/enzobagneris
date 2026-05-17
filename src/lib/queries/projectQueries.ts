@@ -1,5 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import { projectService } from '@/services/api';
+import { isStrapiConfigured, fetchProjects } from '@/lib/strapi';
 
 export const projectKeys = {
   all: ['projects'] as const,
@@ -9,6 +10,6 @@ export const projectKeys = {
 export function useProjectsQuery() {
   return useQuery({
     queryKey: projectKeys.lists(),
-    queryFn: () => projectService.getAll(),
+    queryFn: isStrapiConfigured ? fetchProjects : () => projectService.getAll(),
   });
 }
