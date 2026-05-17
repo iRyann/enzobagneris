@@ -10,6 +10,9 @@ export default ({ env }: { env: (key: string, fallback?: unknown) => unknown }) 
       salt: env('TRANSFER_TOKEN_SALT'),
     },
   },
+  secrets: {
+    encryptionKey: env('ENCRYPTION_KEY'),
+  },
   flags: {
     nps: false,
     promoteEE: false,

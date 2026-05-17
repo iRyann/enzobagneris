@@ -4,8 +4,9 @@ import fs from 'fs';
 
 type StrapiInstance = { strapi: Core.Strapi };
 
-function loadJson<T>(relativePath: string): T {
-  const abs = path.resolve(__dirname, relativePath);
+function loadJson<T>(file: string): T {
+  // process.cwd() = cms/ (où Strapi est lancé), ../src/data/ = src/data/ du frontend
+  const abs = path.resolve(process.cwd(), '../src/data', file);
   return JSON.parse(fs.readFileSync(abs, 'utf-8')) as T;
 }
 
@@ -24,7 +25,7 @@ async function seedBlogPosts(strapi: Core.Strapi) {
   const count = await strapi.db.query('api::blog-post.blog-post').count();
   if (count > 0) return;
 
-  const posts = loadJson<any[]>('../../src/data/blog.json');
+  const posts = loadJson<any[]>('blog.json');
   for (const post of posts) {
     await strapi.db.query('api::blog-post.blog-post').create({
       data: {
@@ -52,7 +53,7 @@ async function seedProjects(strapi: Core.Strapi) {
   const count = await strapi.db.query('api::project.project').count();
   if (count > 0) return;
 
-  const projects = loadJson<any[]>('../../src/data/projects.json');
+  const projects = loadJson<any[]>('projects.json');
   for (const project of projects) {
     await strapi.db.query('api::project.project').create({
       data: {
@@ -87,7 +88,7 @@ async function seedServiceItems(strapi: Core.Strapi) {
   const count = await strapi.db.query('api::service-item.service-item').count();
   if (count > 0) return;
 
-  const services = loadJson<any[]>('../../src/data/services.json');
+  const services = loadJson<any[]>('services.json');
   for (let i = 0; i < services.length; i++) {
     const svc = services[i];
     await strapi.db.query('api::service-item.service-item').create({
@@ -109,7 +110,7 @@ async function seedPartners(strapi: Core.Strapi) {
   const count = await strapi.db.query('api::partner.partner').count();
   if (count > 0) return;
 
-  const partners = loadJson<any[]>('../../src/data/partners.json');
+  const partners = loadJson<any[]>('partners.json');
   for (let i = 0; i < partners.length; i++) {
     const partner = partners[i];
     await strapi.db.query('api::partner.partner').create({
