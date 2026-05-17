@@ -14,6 +14,16 @@
     "cms:build": "pnpm -C cms build",
     "cms:start": "pnpm -C cms start"
   },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@img/sharp-libvips-linux-x64",
+      "@swc/core",
+      "core-js",
+      "core-js-pure",
+      "esbuild",
+      "sharp"
+    ]
+  },
   "dependencies": {
     "@tanstack/react-query": "^5.90.12",
     "@tanstack/react-query-devtools": "^5.91.1",
