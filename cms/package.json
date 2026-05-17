@@ -6,7 +6,8 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "migrate:images": "npx tsx scripts/migrate-images.ts"
   },
   "dependencies": {
     "@strapi/strapi": "^5.12.0",

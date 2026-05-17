@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { activities, activityAudiences } from '@/data/activities';
+import { activityAudiences } from '@/data/activities';
+import { useActivities } from '@/hooks';
 import type { Activity, ActivityAudience } from '@/types';
 
 /**
@@ -8,6 +9,7 @@ import type { Activity, ActivityAudience } from '@/types';
  */
 export function ActivitiesCatalogPage() {
   const [selectedActivity, setSelectedActivity] = useState<Activity | null>(null);
+  const { activities, loading } = useActivities();
 
   if (selectedActivity) {
     return (
@@ -20,7 +22,7 @@ export function ActivitiesCatalogPage() {
   return (
     <div className="bg-nature-light min-h-screen pt-24 pb-20 animate-in fade-in duration-700">
       <ActivitiesHero />
-      <ActivitiesGrid onSelect={setSelectedActivity} />
+      <ActivitiesGrid activities={activities} loading={loading} onSelect={setSelectedActivity} />
       <CustomProjectCta />
       <AudienceSection />
     </div>
@@ -44,11 +46,23 @@ function ActivitiesHero() {
   );
 }
 
-function ActivitiesGrid({ onSelect }: { onSelect: (activity: Activity) => void }) {
+function ActivitiesGrid({
+  activities,
+  loading,
+  onSelect,
+}: {
+  activities: Activity[];
+  loading: boolean;
+  onSelect: (activity: Activity) => void;
+}) {
   return (
     <section className="container mx-auto px-6 py-20">
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
-        {activities.map((activity) => (
+        {loading
+          ? Array.from({ length: 2 }).map((_, i) => (
+              <div key={i} className="bg-white rounded-3xl overflow-hidden shadow-lg border border-nature-dark/10 h-96 animate-pulse" />
+            ))
+          : activities.map((activity) => (
           <button
             key={activity.id}
             type="button"

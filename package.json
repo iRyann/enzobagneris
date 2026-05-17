@@ -12,7 +12,8 @@
     "docs:api": "typedoc",
     "cms:dev": "pnpm -C cms develop",
     "cms:build": "pnpm -C cms build",
-    "cms:start": "pnpm -C cms start"
+    "cms:start": "pnpm -C cms start",
+    "cms:migrate-images": "pnpm -C cms migrate:images"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -25,6 +26,7 @@
     ]
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
     "@tanstack/react-query": "^5.90.12",
     "@tanstack/react-query-devtools": "^5.91.1",
     "clsx": "^2.1.1",

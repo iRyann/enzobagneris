@@ -1,11 +1,12 @@
 import { useQuery } from '@tanstack/react-query';
 import { blogService } from '@/services/api';
+import { isStrapiConfigured, fetchBlogPosts, fetchBlogPostBySlug, fetchFeaturedBlogPosts } from '@/lib/strapi';
 import {
-  isStrapiConfigured,
-  fetchBlogPosts,
-  fetchBlogPostBySlug,
-  fetchFeaturedBlogPosts,
-} from '@/lib/strapi';
+  isSupabaseConfigured,
+  fetchBlogPostsFromSupabase,
+  fetchBlogPostBySlugFromSupabase,
+  fetchFeaturedBlogPostsFromSupabase,
+} from '@/lib/supabase';
 import type { BlogPost } from '@/types';
 
 export const blogKeys = {
@@ -19,7 +20,11 @@ export const blogKeys = {
 export function useBlogPostsQuery() {
   return useQuery({
     queryKey: blogKeys.lists(),
-    queryFn: isStrapiConfigured ? fetchBlogPosts : () => blogService.getAll(),
+    queryFn: isStrapiConfigured
+      ? fetchBlogPosts
+      : isSupabaseConfigured
+        ? fetchBlogPostsFromSupabase
+        : () => blogService.getAll(),
     select: (data: BlogPost[]) =>
       [...data].sort(
         (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
@@ -32,7 +37,9 @@ export function useBlogPostQuery(slug: string | undefined) {
     queryKey: blogKeys.detail(slug || ''),
     queryFn: isStrapiConfigured
       ? () => fetchBlogPostBySlug(slug || '')
-      : () => blogService.getBySlug(slug || ''),
+      : isSupabaseConfigured
+        ? () => fetchBlogPostBySlugFromSupabase(slug || '')
+        : () => blogService.getBySlug(slug || ''),
     enabled: !!slug,
   });
 }
@@ -40,6 +47,10 @@ export function useBlogPostQuery(slug: string | undefined) {
 export function useFeaturedBlogPostsQuery() {
   return useQuery({
     queryKey: [...blogKeys.lists(), 'featured'],
-    queryFn: isStrapiConfigured ? fetchFeaturedBlogPosts : () => blogService.getFeatured(),
+    queryFn: isStrapiConfigured
+      ? fetchFeaturedBlogPosts
+      : isSupabaseConfigured
+        ? fetchFeaturedBlogPostsFromSupabase
+        : () => blogService.getFeatured(),
   });
 }

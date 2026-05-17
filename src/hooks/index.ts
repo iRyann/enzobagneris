@@ -3,6 +3,7 @@ export { useBlogPost } from './useBlogPost';
 export { useProjects } from './useProjects';
 export { useServices } from './useServices';
 export { usePartners } from './usePartners';
+export { useActivities } from './useActivities';
 export { useSanitizedHTML } from './useSanitizedHTML';
 export { useScrollToTop } from './useScrollToTop';
 export { useMediaQuery } from './useMediaQuery';
