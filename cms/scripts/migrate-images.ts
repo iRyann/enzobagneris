@@ -10,37 +10,37 @@
  * devDependencies if not present, or install globally via pnpm add -g @supabase/supabase-js)
  */
 
-import fs from 'fs';
-import path from 'path';
-import { createClient } from '@supabase/supabase-js';
+import fs from "fs";
+import path from "path";
+import { createClient } from "@supabase/supabase-js";
 
-const SUPABASE_URL = 'https://clqmmnauggoxlpabwqpj.supabase.co';
+const SUPABASE_URL = "https://clqmmnauggoxlpabwqpj.supabase.co";
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
-const BUCKET = 'media';
-const REPO_ROOT = path.resolve(process.cwd(), '..');
-const PUBLIC_DIR = path.join(REPO_ROOT, 'public');
+const BUCKET = "media";
+const REPO_ROOT = path.resolve(process.cwd(), "..");
+const PUBLIC_DIR = path.join(REPO_ROOT, "public");
 
 if (!SUPABASE_SERVICE_ROLE_KEY) {
-  console.error('Missing SUPABASE_SERVICE_ROLE_KEY env var');
+  console.error("Missing SUPABASE_SERVICE_ROLE_KEY env var");
   process.exit(1);
 }
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY);
 
 const MIME: Record<string, string> = {
-  '.jpg': 'image/jpeg',
-  '.jpeg': 'image/jpeg',
-  '.png': 'image/png',
-  '.webp': 'image/webp',
-  '.gif': 'image/gif',
-  '.svg': 'image/svg+xml',
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".png": "image/png",
+  ".webp": "image/webp",
+  ".gif": "image/gif",
+  ".svg": "image/svg+xml",
 };
 
 async function run() {
   // Fetch all image asset rows
   const { data: rows, error } = await supabase
-    .from('components_shared_image_assets')
-    .select('id, url');
+    .from("components_shared_image_assets")
+    .select("id, url");
 
   if (error) throw error;
 
@@ -52,7 +52,7 @@ async function run() {
     const url: string = row.url;
 
     // Only migrate paths that start with /assets/
-    if (!url.startsWith('/assets/')) {
+    if (!url.startsWith("/assets/")) {
       skipped++;
       continue;
     }
@@ -65,9 +65,9 @@ async function run() {
       continue;
     }
 
-    const storagePath = url.slice(1); // remove leading slash → "assets/images/..."
+    const storagePath = url.slice(1).normalize("NFD").replace(/[̀-ͯ]/g, "");
     const ext = path.extname(localPath).toLowerCase();
-    const contentType = MIME[ext] ?? 'application/octet-stream';
+    const contentType = MIME[ext] ?? "application/octet-stream";
 
     const fileBuffer = fs.readFileSync(localPath);
 
@@ -77,7 +77,9 @@ async function run() {
       .upload(storagePath, fileBuffer, { contentType, upsert: true });
 
     if (uploadErr) {
-      console.error(`  ✗ Upload failed for ${storagePath}: ${uploadErr.message}`);
+      console.error(
+        `  ✗ Upload failed for ${storagePath}: ${uploadErr.message}`,
+      );
       failed++;
       continue;
     }
@@ -85,12 +87,14 @@ async function run() {
     const newUrl = `${SUPABASE_URL}/storage/v1/object/public/${BUCKET}/${storagePath}`;
 
     const { error: updateErr } = await supabase
-      .from('components_shared_image_assets')
+      .from("components_shared_image_assets")
       .update({ url: newUrl })
-      .eq('id', row.id);
+      .eq("id", row.id);
 
     if (updateErr) {
-      console.error(`  ✗ DB update failed for id=${row.id}: ${updateErr.message}`);
+      console.error(
+        `  ✗ DB update failed for id=${row.id}: ${updateErr.message}`,
+      );
       failed++;
       continue;
     }
@@ -99,10 +103,12 @@ async function run() {
     uploaded++;
   }
 
-  console.log(`\nDone: ${uploaded} uploaded, ${skipped} skipped, ${failed} failed.`);
+  console.log(
+    `\nDone: ${uploaded} uploaded, ${skipped} skipped, ${failed} failed.`,
+  );
 }
 
 run().catch((err) => {
-  console.error('Fatal:', err);
+  console.error("Fatal:", err);
   process.exit(1);
 });

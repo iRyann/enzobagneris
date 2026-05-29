@@ -10,8 +10,8 @@
     "migrate:images": "npx tsx scripts/migrate-images.ts"
   },
   "dependencies": {
-    "@strapi/strapi": "^5.12.0",
     "@strapi/plugin-users-permissions": "^5.12.0",
+    "@strapi/strapi": "^5.12.0",
     "pg": "^8.11.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -20,7 +20,9 @@
   },
   "devDependencies": {
     "@strapi/typescript-utils": "^5.12.0",
+    "@supabase/supabase-js": "^2.105.4",
     "@types/node": "^20.0.0",
+    "tsx": "^4.22.3",
     "typescript": "^5.2.2"
   },
   "engines": {
