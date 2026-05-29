@@ -59,7 +59,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
 
       <div className="p-8 pt-0 mt-auto">
         <Link
-          to={`/blog/${project.id}`}
+          to={`/blog/${project.slug}`}
           className="inline-flex items-center gap-2 text-nature-accent font-display font-bold tracking-widest hover:text-nature-dark transition-colors group/btn"
         >
           EN SAVOIR PLUS
