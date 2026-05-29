@@ -2,8 +2,8 @@ import { createClient } from "@supabase/supabase-js";
 import type { BlogPost, Project, ServiceItem, Partner } from "@/types";
 import type { Activity } from "@/types/activity.types";
 
-const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL as string | undefined;
-const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY as
+const SUPABASE_URL = import.meta.env.PUBLIC_SUPABASE_URL as string | undefined;
+const SUPABASE_ANON_KEY = import.meta.env.PUBLIC_SUPABASE_ANON_KEY as
   | string
   | undefined;
 
