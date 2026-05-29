@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
-import { MemoryRouter, Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import { PageLayout } from '@/components/layout';
 import { queryClient } from '@/lib/queryClient';
 import {
@@ -43,7 +43,7 @@ function ScrollToAnchor() {
 export default function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <MemoryRouter>
+      <BrowserRouter>
         <PageLayout>
           <ScrollToAnchor />
           <Routes>
@@ -56,7 +56,7 @@ export default function App() {
             <Route path="/about" element={<CVPage />} />
           </Routes>
         </PageLayout>
-      </MemoryRouter>
+      </BrowserRouter>
       {import.meta.env.DEV && <ReactQueryDevtools initialIsOpen={false} />}
     </QueryClientProvider>
   );

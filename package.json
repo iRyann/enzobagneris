@@ -9,9 +9,24 @@
     "preview": "vite preview",
     "docs:dev": "pnpm -C docs start",
     "docs:build": "pnpm -C docs build",
-    "docs:api": "typedoc"
+    "docs:api": "typedoc",
+    "cms:dev": "pnpm -C cms develop",
+    "cms:build": "pnpm -C cms build",
+    "cms:start": "pnpm -C cms start",
+    "cms:migrate-images": "pnpm -C cms migrate:images"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@img/sharp-libvips-linux-x64",
+      "@swc/core",
+      "core-js",
+      "core-js-pure",
+      "esbuild",
+      "sharp"
+    ]
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.8",
     "@tanstack/react-query": "^5.90.12",
     "@tanstack/react-query-devtools": "^5.91.1",
     "clsx": "^2.1.1",

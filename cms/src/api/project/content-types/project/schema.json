@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": "Projets du portfolio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "coverImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image-asset"
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-asset"
+    },
+    "principlesEnvironmental": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.principle"
+    },
+    "principlesPedagogical": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.principle"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": ["Leaf", "Microscope", "Hammer", "Map"],
+      "default": "Leaf"
+    },
+    "date": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": ["animation", "montagne", "mediation"],
+      "required": true
+    }
+  }
+}

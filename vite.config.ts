@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => {
         port: 3000,
         host: '127.0.0.1',
       },
+      envPrefix: ['VITE_', 'PUBLIC_'],
       plugins: [react()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),

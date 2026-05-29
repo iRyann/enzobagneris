@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_image_assets",
+  "info": {
+    "displayName": "Image Asset",
+    "icon": "picture",
+    "description": "URL et texte alternatif pour une image"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "alt": {
+      "type": "string",
+      "required": true
+    },
+    "width": {
+      "type": "integer"
+    },
+    "height": {
+      "type": "integer"
+    }
+  }
+}

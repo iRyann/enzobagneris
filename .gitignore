@@ -1,4 +1,9 @@
 .env
+cms/.env
+cms/.tmp/
+cms/.cache/
+cms/build/
+cms/exports/
 
 # Logs
 logs
